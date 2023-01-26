@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1008101001,
+        "pid": "/",
+        "type": 2,
+        "subtype": 0,
+        "name": "Finance",
+        "uri": null,
+        "target": "self",
+        "icon": "fa fa-book",
+        "order": 50,
+        "from": "Finance",
+        "permission": { "permission": 2, "category": null, "element": null },
+        "parent": 0,
+        "children": [
+            {
+                "id": 1008102001,
+                "pid": "/",
+                "type": 2,
+                "subtype": 1,
+                "name": "Analysis",
+                "uri": "{/lang}/{/app}/sales/analysis?{?}",
+                "target": "self",
+                "icon": null,
+                "order": 15,
+                "from": "Finance",
+                "permission": { "permission": 2, "category": null, "element": null },
+                "parent": 1008101001,
+                "children": [
+                    {
+                        "id": 1008102002,
+                        "pid": "/sales/analysis",
+                        "type": 3,
+                        "subtype": 1,
+                        "name": "Dashboard",
+                        "uri": "{/lang}/{/app}/sales/analysis?{?}",
+                        "target": "self",
+                        "icon": null,
+                        "order": 1,
+                        "from": "Finance",
+                        "permission": { "permission": 2, "category": null, "element": null },
+                        "parent": 1008102001,
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+]
