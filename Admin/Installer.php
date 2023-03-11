@@ -14,7 +14,13 @@ declare(strict_types=1);
 
 namespace Modules\Finance\Admin;
 
+use phpOMS\Application\ApplicationAbstract;
+use phpOMS\Config\SettingsInterface;
+use phpOMS\Message\Http\HttpRequest;
+use phpOMS\Message\Http\HttpResponse;
 use phpOMS\Module\InstallerAbstract;
+use phpOMS\Module\ModuleInfo;
+use phpOMS\Uri\HttpUri;
 
 /**
  * Installer class.
@@ -33,4 +39,74 @@ final class Installer extends InstallerAbstract
      * @since 1.0.0
      */
     public const PATH = __DIR__;
+
+    /**
+     * {@inheritdoc}
+     */
+    public static function install(ApplicationAbstract $app, ModuleInfo $info, SettingsInterface $cfgHandler) : void
+    {
+        parent::install($app, $info, $cfgHandler);
+
+        $fileContent = \file_get_contents(__DIR__ . '/Install/taxcodes.json');
+        if ($fileContent === false) {
+            return;
+        }
+
+        $taxes = \json_decode($fileContent, true);
+        foreach ($taxes as $type) {
+            self::createCode($app, $type);
+        }
+    }
+
+    private static function createCode(ApplicationAbstract $app, array $data) : array
+    {
+        /** @var \Modules\Finance\Controller\ApiController $module */
+        $module = $app->moduleManager->get('Finance');
+
+        $response = new HttpResponse();
+        $request  = new HttpRequest(new HttpUri(''));
+
+        $request->header->account = 1;
+        $request->setData('abbr', $data['abbr'] ?? '');
+        $request->setData('percentage_invoice', $data['percentage_invoice'] ?? 0);
+        $request->setData('percentage_sales_tax', $data['percentage_sales_tax'] ?? 0);
+        $request->setData('percentage_input_tax', $data['percentage_input_tax'] ?? 0);
+        $request->setData('title', \reset($data['l11n'])['title'] ?? '');
+        $request->setData('short',  \reset($data['l11n'])['short'] ?? '');
+        $request->setData('long',  \reset($data['l11n'])['long'] ?? '');
+        $request->setData('language', \array_keys($data['l11n'])[0]);
+
+        $module->apiTaxCodeCreate($request, $response);
+
+        $responseData = $response->get('');
+        if (!\is_array($responseData)) {
+            return [];
+        }
+
+        /** @var \Modules\Finace\Models\TaxCode $code */
+        $code = $responseData['response'];
+        $id   = $code->getId();
+
+        $isFirst = true;
+        foreach ($data['l11n'] as $lang => $l11n) {
+            if ($isFirst) {
+                $isFirst = false;
+                continue;
+            }
+
+            $response = new HttpResponse();
+            $request  = new HttpRequest(new HttpUri(''));
+
+            $request->header->account = 1;
+            $request->setData('title', $l11n['title'] ?? '');
+            $request->setData('short', $l11n['short'] ?? '');
+            $request->setData('long', $l11n['long'] ?? '');
+            $request->setData('language', $lang);
+            $request->setData('code', $id);
+
+            $module->apiTaxCodeL11nCreate($request, $response);
+        }
+
+        return $code->toArray();
+    }
 }

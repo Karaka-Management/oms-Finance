@@ -1,0 +1,2716 @@
+{
+    "S0": {
+        "abbr": "S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [
+        ],
+        "l11n": {
+            "de": {
+                "title": "S0",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "DE_V0": {
+        "abbr": "DE_V0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [
+        ],
+        "l11n": {
+            "de": {
+                "title": "DE_V0",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "DE_V07": {
+        "abbr": "DE_V07",
+        "percentage_invoice": 700,
+        "percentage_sales_tax": 700,
+        "percentage_input_tax": 700,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [
+        ],
+        "l11n": {
+            "de": {
+                "title": "DE_V07",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "DE_V19": {
+        "abbr": "DE_V19",
+        "percentage_invoice": 1900,
+        "percentage_sales_tax": 1900,
+        "percentage_input_tax": 1900,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [
+        ],
+        "l11n": {
+            "de": {
+                "title": "DE_V19",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "DE_M0": {
+        "abbr": "DE_M0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [
+        ],
+        "l11n": {
+            "de": {
+                "title": "DE_M0",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "DE_M07": {
+        "abbr": "DE_M07",
+        "percentage_invoice": 700,
+        "percentage_sales_tax": 700,
+        "percentage_input_tax": 700,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [
+        ],
+        "l11n": {
+            "de": {
+                "title": "DE_M07",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "DE_M19": {
+        "abbr": "DE_M19",
+        "percentage_invoice": 1900,
+        "percentage_sales_tax": 1900,
+        "percentage_input_tax": 1900,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [
+        ],
+        "l11n": {
+            "de": {
+                "title": "DE_M19",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "DE_E19": {
+        "abbr": "DE_E19",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 1900,
+        "percentage_input_tax": 1900,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [
+        ],
+        "l11n": {
+            "de": {
+                "title": "Reverse Charge",
+                "short": "",
+                "long": "Reverse Charge"
+            },
+            "en": {
+                "title": "Reverse Charge",
+                "short": "",
+                "long": "Reverse Charge"
+            }
+        }
+    },
+    "EU_S0": {
+        "abbr": "EU_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [
+            "ZM"
+        ],
+        "l11n": {
+            "de": {
+                "title": "Reverse Charge",
+                "short": "",
+                "long": "Reverse Charge"
+            },
+            "en": {
+                "title": "Reverse Charge",
+                "short": "",
+                "long": "Reverse Charge"
+            }
+        }
+    },
+    "AT_S20": {
+        "abbr": "AT_S20",
+
+        "percentage_invoice": 2000,
+        "percentage_sales_tax": 2000,
+        "percentage_input_tax": 2000,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. AT 20%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT AT 20%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "AT_S13": {
+        "abbr": "AT_S13",
+        "percentage_invoice": 1300,
+        "percentage_sales_tax": 1300,
+        "percentage_input_tax": 1300,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. AT 13%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT AT 13%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "AT_S10": {
+        "abbr": "AT_S10",
+        "percentage_invoice": 1000,
+        "percentage_sales_tax": 1000,
+        "percentage_input_tax": 1000,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. AT 10%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT AT 10%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "AT_S0": {
+        "abbr": "AT_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. AT 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT AT 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "BE_S21": {
+        "abbr": "BE_S21",
+        "percentage_invoice": 2100,
+        "percentage_sales_tax": 2100,
+        "percentage_input_tax": 2100,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. BE 21%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT BE 21%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "BE_S12": {
+        "abbr": "BE_S12",
+        "percentage_invoice": 1200,
+        "percentage_sales_tax": 1200,
+        "percentage_input_tax": 1200,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. BE 12%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT BE 12%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "BE_S6": {
+        "abbr": "BE_S6",
+        "percentage_invoice": 600,
+        "percentage_sales_tax": 600,
+        "percentage_input_tax": 600,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. BE 6%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT BE 6%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "BE_S0": {
+        "abbr": "BE_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. BE 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT BE 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "BG_S20": {
+        "abbr": "BG_S20",
+        "percentage_invoice": 2000,
+        "percentage_sales_tax": 2000,
+        "percentage_input_tax": 2000,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. BG 20%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT BG 20%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "BG_S21": {
+        "abbr": "BG_S21",
+        "percentage_invoice": 2100,
+        "percentage_sales_tax": 2100,
+        "percentage_input_tax": 2100,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. BG 21%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT BG 21%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "BG_S10": {
+        "abbr": "BG_S10",
+        "percentage_invoice": 1000,
+        "percentage_sales_tax": 1000,
+        "percentage_input_tax": 1000,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. BG 10%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT BG 10%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "BG_S9": {
+        "abbr": "BG_S9",
+        "percentage_invoice": 900,
+        "percentage_sales_tax": 900,
+        "percentage_input_tax": 900,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. BG 9%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT BG 9%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "BG_S0": {
+        "abbr": "BG_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. BG 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT BG 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "HR_S25": {
+        "abbr": "HR_S25",
+        "percentage_invoice": 2500,
+        "percentage_sales_tax": 2500,
+        "percentage_input_tax": 2500,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. HR 25%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT HR 25%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "HR_S13": {
+        "abbr": "HR_S13",
+        "percentage_invoice": 1300,
+        "percentage_sales_tax": 1300,
+        "percentage_input_tax": 1300,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. HR 13%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT HR 13%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "HR_S5": {
+        "abbr": "HR_S5",
+        "percentage_invoice": 500,
+        "percentage_sales_tax": 500,
+        "percentage_input_tax": 500,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. HR 5%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT HR 5%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "HR_S0": {
+        "abbr": "HR_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. HR 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT HR 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "CY_S19": {
+        "abbr": "CY_S19",
+        "percentage_invoice": 1900,
+        "percentage_sales_tax": 1900,
+        "percentage_input_tax": 1900,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. CY 19%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT CY 19%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "CY_S9": {
+        "abbr": "CY_S9",
+        "percentage_invoice": 900,
+        "percentage_sales_tax": 900,
+        "percentage_input_tax": 900,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. CY 9%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT CY 9%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "CY_S5": {
+        "abbr": "CY_S5",
+        "percentage_invoice": 500,
+        "percentage_sales_tax": 500,
+        "percentage_input_tax": 500,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. CY 5%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT CY 5%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "CY_S0": {
+        "abbr": "CY_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. CY 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT CY 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "CZ_S21": {
+        "abbr": "CZ_S21",
+        "percentage_invoice": 2100,
+        "percentage_sales_tax": 2100,
+        "percentage_input_tax": 2100,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. CZ 21%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT CZ 21%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "CZ_S15": {
+        "abbr": "CZ_S15",
+        "percentage_invoice": 1500,
+        "percentage_sales_tax": 1500,
+        "percentage_input_tax": 1500,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. CZ 15%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT CZ 15%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "CZ_S10": {
+        "abbr": "CZ_S10",
+        "percentage_invoice": 1000,
+        "percentage_sales_tax": 1000,
+        "percentage_input_tax": 1000,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. CZ 10%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT CZ 10%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "CZ_S0": {
+        "abbr": "CZ_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. CZ 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT CZ 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "DK_S25": {
+        "abbr": "DK_S25",
+        "percentage_invoice": 2500,
+        "percentage_sales_tax": 2500,
+        "percentage_input_tax": 2500,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. DK 25%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT DK 25%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "DK_S0": {
+        "abbr": "DK_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. DK 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT DK 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "EE_S20": {
+        "abbr": "EE_S20",
+        "percentage_invoice": 2000,
+        "percentage_sales_tax": 2000,
+        "percentage_input_tax": 2000,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. EE 20%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT EE 20%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "EE_S9": {
+        "abbr": "EE_S9",
+        "percentage_invoice": 900,
+        "percentage_sales_tax": 900,
+        "percentage_input_tax": 900,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. EE 9%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT EE 9%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "EE_S0": {
+        "abbr": "EE_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. EE 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT EE 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "FI_S24": {
+        "abbr": "FI_S24",
+        "percentage_invoice": 2400,
+        "percentage_sales_tax": 2400,
+        "percentage_input_tax": 2400,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. FI 24%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT FI 24%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "FI_S14": {
+        "abbr": "FI_S14",
+        "percentage_invoice": 1400,
+        "percentage_sales_tax": 1400,
+        "percentage_input_tax": 1400,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. FI 14%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT FI 14%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "FI_S10": {
+        "abbr": "FI_S10",
+        "percentage_invoice": 1000,
+        "percentage_sales_tax": 1000,
+        "percentage_input_tax": 1000,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. FI 10%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT FI 10%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "FI_S0": {
+        "abbr": "FI_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. FI 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT FI 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "FR_S20": {
+        "abbr": "FR_S20",
+        "percentage_invoice": 2000,
+        "percentage_sales_tax": 2000,
+        "percentage_input_tax": 2000,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. FR 20%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT FR 20%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "FR_S10": {
+        "abbr": "FR_S10",
+        "percentage_invoice": 1000,
+        "percentage_sales_tax": 1000,
+        "percentage_input_tax": 1000,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. FR 10%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT FR 10%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "FR_S5.5": {
+        "abbr": "FR_S5.5",
+        "percentage_invoice": 550,
+        "percentage_sales_tax": 550,
+        "percentage_input_tax": 550,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. FR 5.5%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT FR 5.5%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "FR_S2.1": {
+        "abbr": "FR_S2.1",
+        "percentage_invoice": 210,
+        "percentage_sales_tax": 210,
+        "percentage_input_tax": 210,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. FR 2.1%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT FR 2.1%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "FR_S0": {
+        "abbr": "FR_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. FR 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT FR 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "DE_S19": {
+        "abbr": "DE_S19",
+        "percentage_invoice": 1900,
+        "percentage_sales_tax": 1900,
+        "percentage_input_tax": 1900,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. DE 19%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT DE 19%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "DE_S7": {
+        "abbr": "DE_S7",
+        "percentage_invoice": 700,
+        "percentage_sales_tax": 700,
+        "percentage_input_tax": 700,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. DE 7%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT DE 7%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "DE_S0": {
+        "abbr": "DE_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. DE 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT DE 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "GR_S24": {
+        "abbr": "GR_S24",
+        "percentage_invoice": 2400,
+        "percentage_sales_tax": 2400,
+        "percentage_input_tax": 2400,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. GR 24%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT GR 24%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "GR_S13": {
+        "abbr": "GR_S13",
+        "percentage_invoice": 1300,
+        "percentage_sales_tax": 1300,
+        "percentage_input_tax": 1300,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. GR 13%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT GR 13%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "GR_S6": {
+        "abbr": "GR_S6",
+        "percentage_invoice": 600,
+        "percentage_sales_tax": 600,
+        "percentage_input_tax": 600,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. GR 6%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT GR 6%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "GR_S0": {
+        "abbr": "GR_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. GR 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT GR 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "HU_S27": {
+        "abbr": "HU_S27",
+        "percentage_invoice": 2700,
+        "percentage_sales_tax": 2700,
+        "percentage_input_tax": 2700,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. HU 27%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT HU 27%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "HU_S18": {
+        "abbr": "HU_S18",
+        "percentage_invoice": 1800,
+        "percentage_sales_tax": 1800,
+        "percentage_input_tax": 1800,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. HU 18%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT HU 18%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "HU_S5": {
+        "abbr": "HU_S5",
+        "percentage_invoice": 500,
+        "percentage_sales_tax": 500,
+        "percentage_input_tax": 500,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. HU 5%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT HU 5%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "HU_S0": {
+        "abbr": "HU_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. HU 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT HU 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "IE_S23": {
+        "abbr": "IE_S23",
+        "percentage_invoice": 2300,
+        "percentage_sales_tax": 2300,
+        "percentage_input_tax": 2300,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. IE 23%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT IE 23%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "IE_S13.5": {
+        "abbr": "IE_S13.5",
+        "percentage_invoice": 1350,
+        "percentage_sales_tax": 1350,
+        "percentage_input_tax": 1350,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. IE 13.5%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT IE 13.5%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "IE_S9": {
+        "abbr": "IE_S9",
+        "percentage_invoice": 900,
+        "percentage_sales_tax": 900,
+        "percentage_input_tax": 900,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. IE 9%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT IE 9%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "IE_S4.8": {
+        "abbr": "IE_S4.8",
+        "percentage_invoice": 480,
+        "percentage_sales_tax": 480,
+        "percentage_input_tax": 480,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. IE 4.8%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT IE 4.8%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "IE_S0": {
+        "abbr": "IE_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. IE 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT IE 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "IT_S22": {
+        "abbr": "IT_S22",
+        "percentage_invoice": 2200,
+        "percentage_sales_tax": 2200,
+        "percentage_input_tax": 2200,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. IT 22%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT IT 22%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "IT_S10": {
+        "abbr": "IT_S10",
+        "percentage_invoice": 1000,
+        "percentage_sales_tax": 1000,
+        "percentage_input_tax": 1000,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. IT 10%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT IT 10%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "IT_S5": {
+        "abbr": "IT_S5",
+        "percentage_invoice": 500,
+        "percentage_sales_tax": 500,
+        "percentage_input_tax": 500,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. IT 5%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT IT 5%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "IT_S4": {
+        "abbr": "IT_S4",
+        "percentage_invoice": 400,
+        "percentage_sales_tax": 400,
+        "percentage_input_tax": 400,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. IT 4%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT IT 4%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "IT_S0": {
+        "abbr": "IT_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. IT 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT IT 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "LV_S21": {
+        "abbr": "LV_S21",
+        "percentage_invoice": 2100,
+        "percentage_sales_tax": 2100,
+        "percentage_input_tax": 2100,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. LV 21%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT LV 21%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "LV_S12": {
+        "abbr": "LV_S12",
+        "percentage_invoice": 1200,
+        "percentage_sales_tax": 1200,
+        "percentage_input_tax": 1200,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. LV 12%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT LV 12%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "LV_S5": {
+        "abbr": "LV_S5",
+        "percentage_invoice": 500,
+        "percentage_sales_tax": 500,
+        "percentage_input_tax": 500,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. LV 5%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT LV 5%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "LV_S0": {
+        "abbr": "LV_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. LV 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT LV 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "LT_S21": {
+        "abbr": "LT_S21",
+        "percentage_invoice": 2100,
+        "percentage_sales_tax": 2100,
+        "percentage_input_tax": 2100,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. LT 21%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT LT 21%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "LT_S9": {
+        "abbr": "LT_S9",
+        "percentage_invoice": 900,
+        "percentage_sales_tax": 900,
+        "percentage_input_tax": 900,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. LT 9%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT LT 9%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "LT_S5": {
+        "abbr": "LT_S5",
+        "percentage_invoice": 500,
+        "percentage_sales_tax": 500,
+        "percentage_input_tax": 500,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. LT 5%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT LT 5%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "LT_S0": {
+        "abbr": "LT_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. LT 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT LT 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "LU_S17": {
+        "abbr": "LU_S17",
+        "percentage_invoice": 1700,
+        "percentage_sales_tax": 1700,
+        "percentage_input_tax": 1700,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. LU 17%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT LU 17%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "LU_S14": {
+        "abbr": "LU_S14",
+        "percentage_invoice": 1400,
+        "percentage_sales_tax": 1400,
+        "percentage_input_tax": 1400,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. LU 14%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT LU 14%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "LU_S8": {
+        "abbr": "LU_S8",
+        "percentage_invoice": 800,
+        "percentage_sales_tax": 800,
+        "percentage_input_tax": 800,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. LU 8%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT LU 8%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "LU_S3": {
+        "abbr": "LU_S3",
+        "percentage_invoice": 300,
+        "percentage_sales_tax": 300,
+        "percentage_input_tax": 300,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. LU 3%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT LU 3%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "LU_S0": {
+        "abbr": "LU_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. LU 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT LU 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "MT_S18": {
+        "abbr": "MT_S18",
+        "percentage_invoice": 1800,
+        "percentage_sales_tax": 1800,
+        "percentage_input_tax": 1800,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. MT 18%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT MT 18%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "MT_S7": {
+        "abbr": "MT_S7",
+        "percentage_invoice": 700,
+        "percentage_sales_tax": 700,
+        "percentage_input_tax": 700,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. MT 7%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT MT 7%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "MT_S5": {
+        "abbr": "MT_S5",
+        "percentage_invoice": 500,
+        "percentage_sales_tax": 500,
+        "percentage_input_tax": 500,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. MT 5%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT MT 5%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "MT_S0": {
+        "abbr": "MT_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. MT 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT MT 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "NL_S21": {
+        "abbr": "NL_S21",
+        "percentage_invoice": 2100,
+        "percentage_sales_tax": 2100,
+        "percentage_input_tax": 2100,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. NL 21%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT NL 21%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "NL_S9": {
+        "abbr": "NL_S9",
+        "percentage_invoice": 900,
+        "percentage_sales_tax": 900,
+        "percentage_input_tax": 900,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. NL 9%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT NL 9%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "NL_S0": {
+        "abbr": "NL_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. NL 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT NL 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "PL_S23": {
+        "abbr": "PL_S23",
+        "percentage_invoice": 2300,
+        "percentage_sales_tax": 2300,
+        "percentage_input_tax": 2300,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. PL 23%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT PL 23%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "PL_S8": {
+        "abbr": "PL_S8",
+        "percentage_invoice": 800,
+        "percentage_sales_tax": 800,
+        "percentage_input_tax": 800,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. PL 8%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT PL 8%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "PL_S5": {
+        "abbr": "PL_S5",
+        "percentage_invoice": 500,
+        "percentage_sales_tax": 500,
+        "percentage_input_tax": 500,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. PL 5%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT PL 5%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "PL_S0": {
+        "abbr": "PL_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. PL 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT PL 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "PT_S23": {
+        "abbr": "PT_S23",
+        "percentage_invoice": 2300,
+        "percentage_sales_tax": 2300,
+        "percentage_input_tax": 2300,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. PT 23%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT PT 23%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "PT_S13": {
+        "abbr": "PT_S13",
+        "percentage_invoice": 1300,
+        "percentage_sales_tax": 1300,
+        "percentage_input_tax": 1300,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. PT 13%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT PT 13%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "PT_S6": {
+        "abbr": "PT_S6",
+        "percentage_invoice": 600,
+        "percentage_sales_tax": 600,
+        "percentage_input_tax": 600,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. PT 6%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT PT 6%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "PT_S0": {
+        "abbr": "PT_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. PT 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT PT 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "RO_S19": {
+        "abbr": "RO_S19",
+        "percentage_invoice": 1900,
+        "percentage_sales_tax": 1900,
+        "percentage_input_tax": 1900,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. RO 19%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT RO 19%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "RO_S9": {
+        "abbr": "RO_S9",
+        "percentage_invoice": 900,
+        "percentage_sales_tax": 900,
+        "percentage_input_tax": 900,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. RO 9%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT RO 9%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "RO_S5": {
+        "abbr": "RO_S5",
+        "percentage_invoice": 500,
+        "percentage_sales_tax": 500,
+        "percentage_input_tax": 500,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. RO 5%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT RO 5%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "RO_S0": {
+        "abbr": "RO_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. RO 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT RO 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "SK_S20": {
+        "abbr": "SK_S20",
+        "percentage_invoice": 2000,
+        "percentage_sales_tax": 2000,
+        "percentage_input_tax": 2000,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. SK 20%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT SK 20%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "SK_S10": {
+        "abbr": "SK_S10",
+        "percentage_invoice": 1000,
+        "percentage_sales_tax": 1000,
+        "percentage_input_tax": 1000,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. SK 10%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT SK 10%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "SK_S0": {
+        "abbr": "SK_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. SK 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT SK 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "SI_S22": {
+        "abbr": "SI_S22",
+        "percentage_invoice": 2200,
+        "percentage_sales_tax": 2200,
+        "percentage_input_tax": 2200,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. SI 22%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT SI 22%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "SI_S9.5": {
+        "abbr": "SI_S9.5",
+        "percentage_invoice": 950,
+        "percentage_sales_tax": 950,
+        "percentage_input_tax": 950,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. SI 9.5%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT SI 9.5%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "SI_S5": {
+        "abbr": "SI_S5",
+        "percentage_invoice": 500,
+        "percentage_sales_tax": 500,
+        "percentage_input_tax": 500,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. SI 5%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT SI 5%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "SI_S0": {
+        "abbr": "SI_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. SI 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT SI 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "ES_S21": {
+        "abbr": "ES_S21",
+        "percentage_invoice": 2100,
+        "percentage_sales_tax": 2100,
+        "percentage_input_tax": 2100,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. ES 21%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT ES 21%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "ES_S10": {
+        "abbr": "ES_S10",
+        "percentage_invoice": 1000,
+        "percentage_sales_tax": 1000,
+        "percentage_input_tax": 1000,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. ES 10%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT ES 10%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "ES_S4": {
+        "abbr": "ES_S4",
+        "percentage_invoice": 400,
+        "percentage_sales_tax": 400,
+        "percentage_input_tax": 400,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. ES 4%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT ES 4%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "ES_S0": {
+        "abbr": "ES_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. ES 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT ES 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "SE_S25": {
+        "abbr": "SE_S25",
+        "percentage_invoice": 2500,
+        "percentage_sales_tax": 2500,
+        "percentage_input_tax": 2500,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. SE 25%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT SE 25%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "SE_S12": {
+        "abbr": "SE_S12",
+        "percentage_invoice": 1200,
+        "percentage_sales_tax": 1200,
+        "percentage_input_tax": 1200,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. SE 12%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT SE 12%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "SE_S6": {
+        "abbr": "SE_S6",
+        "percentage_invoice": 600,
+        "percentage_sales_tax": 600,
+        "percentage_input_tax": 600,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. SE 6%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT SE 6%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "SE_S0": {
+        "abbr": "SE_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. SE 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT SE 0%",
+                "short": "",
+                "long": ""
+
+            }
+        }
+    },
+    "GB_S20": {
+        "abbr": "GB_S20",
+        "percentage_invoice": 2000,
+        "percentage_sales_tax": 2000,
+        "percentage_input_tax": 2000,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. GB 20%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT GB 20%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "GB_S5": {
+        "abbr": "GB_S5",
+        "percentage_invoice": 500,
+        "percentage_sales_tax": 500,
+        "percentage_input_tax": 500,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. GB 5%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT GB 5%",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
+    "GB_S0": {
+        "abbr": "GB_S0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [],
+        "l11n": {
+            "de": {
+                "title": "Lokale USt. GB 0%",
+                "short": "",
+                "long": ""
+            },
+            "en": {
+                "title": "Local VAT GB 0%",
+                "short": "",
+                "long": ""
+            }
+        }
+    }
+}
