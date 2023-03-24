@@ -6,7 +6,7 @@
  *
  * @package   Modules\Finance\Admin
  * @copyright Dennis Eichhorn
- * @license   OMS License 1.0
+ * @license   OMS License 2.0
  * @version   1.0.0
  * @link      https://jingga.app
  */
@@ -26,7 +26,7 @@ use phpOMS\Uri\HttpUri;
  * Installer class.
  *
  * @package Modules\Finance\Admin
- * @license OMS License 1.0
+ * @license OMS License 2.0
  * @link    https://jingga.app
  * @since   1.0.0
  */
@@ -52,12 +52,23 @@ final class Installer extends InstallerAbstract
             return;
         }
 
+        /** @var array $taxes */
         $taxes = \json_decode($fileContent, true);
         foreach ($taxes as $type) {
             self::createCode($app, $type);
         }
     }
 
+    /**
+     * Install default tax codes
+     *
+     * @param ApplicationAbstract $app  Application
+     * @param array               $data Tax code data
+     *
+     * @return array
+     *
+     * @since 1.0.0
+     */
     private static function createCode(ApplicationAbstract $app, array $data) : array
     {
         /** @var \Modules\Finance\Controller\ApiController $module */
@@ -83,7 +94,7 @@ final class Installer extends InstallerAbstract
             return [];
         }
 
-        /** @var \Modules\Finace\Models\TaxCode $code */
+        /** @var \Modules\Finance\Models\TaxCode $code */
         $code = $responseData['response'];
         $id   = $code->getId();
 

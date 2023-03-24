@@ -6,7 +6,7 @@
  *
  * @package   Modules\Finance\Models
  * @copyright Dennis Eichhorn
- * @license   OMS License 1.0
+ * @license   OMS License 2.0
  * @version   1.0.0
  * @link      https://jingga.app
  */
@@ -18,7 +18,7 @@ namespace Modules\Finance\Models;
  * Finance class.
  *
  * @package Modules\Finance\Models
- * @license OMS License 1.0
+ * @license OMS License 2.0
  * @link    https://jingga.app
  * @since   1.0.0
  */
@@ -35,7 +35,9 @@ class TaxCode implements \JsonSerializable
     public string $abbr = '';
 
     public int $percentageInvoice = 0;
+
     public int $percentageSales = 0;
+
     public int $percentageInput = 0;
 
     /**
@@ -46,6 +48,11 @@ class TaxCode implements \JsonSerializable
      */
     public TaxCodeL11n $l11n;
 
+    /**
+     * Constructor.
+     *
+     * @since 1.0.0
+     */
     public function __construct()
     {
         $this->l11n = new TaxCodeL11n();

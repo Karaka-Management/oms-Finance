@@ -6,7 +6,7 @@
  *
  * @package   Modules\Finance
  * @copyright Dennis Eichhorn
- * @license   OMS License 1.0
+ * @license   OMS License 2.0
  * @version   1.0.0
  * @link      https://jingga.app
  */
@@ -28,7 +28,7 @@ use phpOMS\Model\Message\FormValidation;
  * Finance class.
  *
  * @package Modules\Finance
- * @license OMS License 1.0
+ * @license OMS License 2.0
  * @link    https://jingga.app
  * @since   1.0.0
  */
@@ -94,16 +94,16 @@ final class ApiController extends Controller
      */
     private function createTaxCodeFromRequest(RequestAbstract $request) : TaxCode
     {
-        $code       = new TaxCode();
-        $code->abbr = (string) ($request->getData('abbr') ?? '');
-        $code->percentageInvoice = (int) ($request->getData('percentage_invoice') ?? 0);
-        $code->percentageSales = (int) ($request->getData('percentage_sales_tax') ?? 0);
-        $code->percentageInput = (int) ($request->getData('percentage_input_tax') ?? 0);
+        $code                    = new TaxCode();
+        $code->abbr              = $request->getDataString('abbr') ?? '';
+        $code->percentageInvoice = $request->getDataInt('percentage_invoice') ?? 0;
+        $code->percentageSales   = $request->getDataInt('percentage_sales_tax') ?? 0;
+        $code->percentageInput   = $request->getDataInt('percentage_input_tax') ?? 0;
 
         if (!empty($request->getData('title'))) {
-            $code->l11n->title = (string) ($request->getData('title') ?? '');
-            $code->l11n->short = (string) ($request->getData('short') ?? '');
-            $code->l11n->long = (string) ($request->getData('long') ?? '');
+            $code->l11n->title = (string) ($request->getData('title'));
+            $code->l11n->short = $request->getDataString('short') ?? '';
+            $code->l11n->long  = $request->getDataString('long') ?? '';
             $code->l11n->setLanguage((string) ($request->getData('language') ?? 'en'));
         }
 
@@ -170,12 +170,12 @@ final class ApiController extends Controller
      */
     private function createTaxCodeL11nFromRequest(RequestAbstract $request) : TaxCodeL11n
     {
-        $l11n          = new TaxCodeL11n();
-        $l11n->title = (string) ($request->getData('title') ?? '');
-        $l11n->short = (string) ($request->getData('short') ?? '');
-        $l11n->long = (string) ($request->getData('long') ?? '');
-        $l11n->code = (int) ($request->getData('code') ?? 0);
-        $l11n->setLanguage((string) ($request->getData('language') ?? $request->getLanguage()));
+        $l11n        = new TaxCodeL11n();
+        $l11n->title = $request->getDataString('title') ?? '';
+        $l11n->short = $request->getDataString('short') ?? '';
+        $l11n->long  = $request->getDataString('long') ?? '';
+        $l11n->code  = $request->getDataInt('code') ?? 0;
+        $l11n->setLanguage((string) ($request->getDataString('language') ?? $request->getLanguage()));
 
         return $l11n;
     }
