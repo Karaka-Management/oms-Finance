@@ -11,8 +11,9 @@
             },
             "tax_code_abbr": {
                 "name": "tax_code_abbr",
-                "type": "VARCHAR(255)",
-                "null": false
+                "type": "VARCHAR(10)",
+                "null": false,
+                "unique": true
             },
             "tax_code_invoice": {
                 "name": "tax_code_invoice",
