@@ -46,8 +46,8 @@ final class ApiController extends Controller
     private function validateTaxCodeCreate(RequestAbstract $request) : array
     {
         $val = [];
-        if (($val['abbr'] = empty($request->getData('abbr')))
-            || ($val['title'] = empty($request->getData('title')))
+        if (($val['abbr'] = !$request->hasData('abbr'))
+            || ($val['title'] = !$request->hasData('title'))
         ) {
             return $val;
         }
@@ -100,7 +100,7 @@ final class ApiController extends Controller
         $code->percentageSales   = $request->getDataInt('percentage_sales_tax') ?? 0;
         $code->percentageInput   = $request->getDataInt('percentage_input_tax') ?? 0;
 
-        if (!empty($request->getData('title'))) {
+        if ($request->hasData('title')) {
             $code->l11n->title = (string) ($request->getData('title'));
             $code->l11n->short = $request->getDataString('short') ?? '';
             $code->l11n->long  = $request->getDataString('long') ?? '';
@@ -122,8 +122,8 @@ final class ApiController extends Controller
     private function validateTaxCodeL11nCreate(RequestAbstract $request) : array
     {
         $val = [];
-        if (($val['title'] = empty($request->getData('title')))
-            || ($val['code'] = empty($request->getData('code')))
+        if (($val['title'] = !$request->hasData('title'))
+            || ($val['code'] = !$request->hasData('code'))
         ) {
             return $val;
         }
