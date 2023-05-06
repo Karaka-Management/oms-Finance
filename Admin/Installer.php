@@ -96,7 +96,7 @@ final class Installer extends InstallerAbstract
 
         /** @var \Modules\Finance\Models\TaxCode $code */
         $code = $responseData['response'];
-        $id   = $code->getId();
+        $id   = $code->id;
 
         $isFirst = true;
         foreach ($data['l11n'] as $lang => $l11n) {
