@@ -128,9 +128,9 @@ class TaxCodeL11n implements \JsonSerializable
     {
         return [
             'id'             => $this->id,
-            'title'       => $this->title,
-            'short'       => $this->short,
-            'long'       => $this->long,
+            'title'          => $this->title,
+            'short'          => $this->short,
+            'long'           => $this->long,
             'language'       => $this->language,
         ];
     }

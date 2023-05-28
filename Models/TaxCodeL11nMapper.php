@@ -36,12 +36,12 @@ final class TaxCodeL11nMapper extends DataMapperFactory
      * @since 1.0.0
      */
     public const COLUMNS = [
-        'tax_code_l11n_id'            => ['name' => 'tax_code_l11n_id',            'type' => 'int',          'internal' => 'id'],
+        'tax_code_l11n_id'                => ['name' => 'tax_code_l11n_id',            'type' => 'int',          'internal' => 'id'],
         'tax_code_l11n_text_title'        => ['name' => 'tax_code_l11n_text_title',        'type' => 'string',          'internal' => 'title'],
         'tax_code_l11n_text_short'        => ['name' => 'tax_code_l11n_text_short',        'type' => 'string',          'internal' => 'short'],
-        'tax_code_l11n_text_long'    => ['name' => 'tax_code_l11n_text_long',    'type' => 'string', 'internal' => 'long'],
-        'tax_code_l11n_lang'    => ['name' => 'tax_code_l11n_lang',    'type' => 'string', 'internal' => 'language'],
-        'tax_code_l11n_code'    => ['name' => 'tax_code_l11n_code',    'type' => 'int', 'internal' => 'code'],
+        'tax_code_l11n_text_long'         => ['name' => 'tax_code_l11n_text_long',    'type' => 'string', 'internal' => 'long'],
+        'tax_code_l11n_lang'              => ['name' => 'tax_code_l11n_lang',    'type' => 'string', 'internal' => 'language'],
+        'tax_code_l11n_code'              => ['name' => 'tax_code_l11n_code',    'type' => 'int', 'internal' => 'code'],
     ];
 
     /**
