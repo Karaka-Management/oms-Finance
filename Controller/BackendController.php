@@ -44,14 +44,14 @@ final class BackendController extends Controller
      */
     public function viewDashboard(RequestAbstract $request, ResponseAbstract $response, mixed $data = null) : RenderableInterface
     {
-        $head = $response->get('Content')->getData('head');
+        $head = $response->get('Content')->head;
         $head->addAsset(AssetType::CSS, 'Resources/chartjs/Chartjs/chart.css');
         $head->addAsset(AssetType::JSLATE, 'Resources/chartjs/Chartjs/chart.js');
         $head->addAsset(AssetType::JSLATE, 'Modules/ClientManagement/Controller.js', ['type' => 'module']);
 
         $view = new View($this->app->l11nManager, $request, $response);
         $view->setTemplate('/Modules/Sales/Theme/Backend/sales-analysis-dashboard');
-        $view->addData('nav', $this->app->moduleManager->get('Navigation')->createNavigationMid(1001602001, $request, $response));
+        $view->data['nav'] = $this->app->moduleManager->get('Navigation')->createNavigationMid(1001602001, $request, $response);
 
         /////
         $monthlySalesCustomer = [];
@@ -64,7 +64,7 @@ final class BackendController extends Controller
             ];
         }
 
-        $view->addData('monthlySalesCustomer', $monthlySalesCustomer);
+        $view->data['monthlySalesCustomer'] = $monthlySalesCustomer;
 
         $annualSalesCustomer = [];
         for ($i = 1; $i < 11; ++$i) {
@@ -75,7 +75,7 @@ final class BackendController extends Controller
             ];
         }
 
-        $view->addData('annualSalesCustomer', $annualSalesCustomer);
+        $view->data['annualSalesCustomer'] = $annualSalesCustomer;
 
         return $view;
     }
