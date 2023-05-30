@@ -18,7 +18,7 @@ use phpOMS\Localization\Money;
  * @var \phpOMS\Views\View $this
  */
 
-echo $this->getData('nav')->render();
+echo $this->data['nav']->render();
 ?>
 
 <div class="row">
@@ -119,7 +119,7 @@ echo $this->getData('nav')->render();
                 Sales / Profit - Monthly
                 <?php include __DIR__ . '/../../../../Web/Backend/Themes/popup-export-data.tpl.php'; ?>
             </div>
-            <?php $salesCustomer = $this->getData('monthlySalesCustomer'); ?>
+            <?php $salesCustomer = $this->data['monthlySalesCustomer']; ?>
             <div class="portlet-body">
                 <canvas id="sales-region" data-chart='{
                                 "type": "bar",
@@ -243,7 +243,7 @@ echo $this->getData('nav')->render();
                 Sales / Profit - Annual
                 <?php include __DIR__ . '/../../../../Web/Backend/Themes/popup-export-data.tpl.php'; ?>
             </div>
-            <?php $salesCustomer = $this->getData('annualSalesCustomer'); ?>
+            <?php $salesCustomer = $this->data['annualSalesCustomer']; ?>
             <div class="portlet-body">
                 <canvas id="sales-customer-annual" data-chart='{
                                 "type": "bar",
