@@ -175,7 +175,7 @@ final class ApiController extends Controller
         $l11n->short = $request->getDataString('short') ?? '';
         $l11n->long  = $request->getDataString('long') ?? '';
         $l11n->code  = $request->getDataInt('code') ?? 0;
-        $l11n->setLanguage((string) ($request->getDataString('language') ?? $request->getLanguage()));
+        $l11n->setLanguage((string) ($request->getDataString('language') ?? $request->header->l11n->language));
 
         return $l11n;
     }
