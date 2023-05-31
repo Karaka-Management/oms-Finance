@@ -72,7 +72,7 @@ final class ApiController extends Controller
     {
         if (!empty($val = $this->validateTaxCodeCreate($request))) {
             $response->data['tax_code_create'] = new FormValidation($val);
-            $response->header->status = RequestStatusCode::R_400;
+            $response->header->status          = RequestStatusCode::R_400;
 
             return;
         }
@@ -148,7 +148,7 @@ final class ApiController extends Controller
     {
         if (!empty($val = $this->validateTaxCodeL11nCreate($request))) {
             $response->data['tax_code_l11n_create'] = new FormValidation($val);
-            $response->header->status = RequestStatusCode::R_400;
+            $response->header->status               = RequestStatusCode::R_400;
 
             return;
         }
