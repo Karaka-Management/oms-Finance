@@ -1,4 +1,30 @@
 {
+    "SBIZ_0": {
+        "abbr": "SBIZ_0",
+        "percentage_invoice": 0,
+        "percentage_sales_tax": 0,
+        "percentage_input_tax": 0,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [
+        ],
+        "l11n": {
+            "de": {
+                "title": "Kleinunternehmen § 19 UStG",
+                "short": "",
+                "long": "",
+                "invoice_msg": "Im ausgewiesenen Rechnungsbetrag ist gemäß § 19 UStG keine Umsatzsteuer enthalten."
+            },
+            "en": {
+                "title": "Small business § 19 UStG",
+                "short": "",
+                "long": "",
+                "invoice_msg": "In accordance with § 19 UStG, the invoice amount shown does not include sales tax."
+            }
+        }
+    },
     "S0": {
         "abbr": "S0",
         "percentage_invoice": 0,
@@ -12,6 +38,11 @@
         ],
         "l11n": {
             "de": {
+                "title": "S0",
+                "short": "",
+                "long": ""
+            },
+            "en": {
                 "title": "S0",
                 "short": "",
                 "long": ""

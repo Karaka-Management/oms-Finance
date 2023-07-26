@@ -19,10 +19,8 @@ use Modules\Finance\Models\TaxCodeL11n;
 use Modules\Finance\Models\TaxCodeL11nMapper;
 use Modules\Finance\Models\TaxCodeMapper;
 use phpOMS\Message\Http\RequestStatusCode;
-use phpOMS\Message\NotificationLevel;
 use phpOMS\Message\RequestAbstract;
 use phpOMS\Message\ResponseAbstract;
-use phpOMS\Model\Message\FormValidation;
 
 /**
  * Finance class.
@@ -71,16 +69,15 @@ final class ApiController extends Controller
     public function apiTaxCodeCreate(RequestAbstract $request, ResponseAbstract $response, mixed $data = null) : void
     {
         if (!empty($val = $this->validateTaxCodeCreate($request))) {
-            $response->data['tax_code_create'] = new FormValidation($val);
-            $response->header->status          = RequestStatusCode::R_400;
+            $response->header->status = RequestStatusCode::R_400;
+            $this->createInvalidCreateResponse($request, $response, $val);
 
             return;
         }
 
         $code = $this->createTaxCodeFromRequest($request);
         $this->createModel($request->header->account, $code, TaxCodeMapper::class, 'tax_code', $request->getOrigin());
-
-        $this->fillJsonResponse($request, $response, NotificationLevel::OK, 'Code', 'Tax code successfully created', $code);
+        $this->createStandardCreateResponse($request, $response, $code);
     }
 
     /**
@@ -147,16 +144,15 @@ final class ApiController extends Controller
     public function apiTaxCodeL11nCreate(RequestAbstract $request, ResponseAbstract $response, mixed $data = null) : void
     {
         if (!empty($val = $this->validateTaxCodeL11nCreate($request))) {
-            $response->data['tax_code_l11n_create'] = new FormValidation($val);
-            $response->header->status               = RequestStatusCode::R_400;
+            $response->header->status = RequestStatusCode::R_400;
+            $this->createInvalidCreateResponse($request, $response, $val);
 
             return;
         }
 
         $l11nCode = $this->createTaxCodeL11nFromRequest($request);
         $this->createModel($request->header->account, $l11nCode, TaxCodeL11nMapper::class, 'tax_code_l11n', $request->getOrigin());
-
-        $this->fillJsonResponse($request, $response, NotificationLevel::OK, 'Localization', 'Localization successfully created', $l11nCode);
+        $this->createStandardCreateResponse($request, $response, $l11nCode);
     }
 
     /**
