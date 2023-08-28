@@ -98,10 +98,10 @@ final class ApiController extends Controller
         $code->percentageInput   = $request->getDataInt('percentage_input_tax') ?? 0;
 
         if ($request->hasData('title')) {
-            $code->l11n->title = (string) ($request->getData('title'));
+            $code->l11n->title = $request->getDataString('title') ?? '';
             $code->l11n->short = $request->getDataString('short') ?? '';
             $code->l11n->long  = $request->getDataString('long') ?? '';
-            $code->l11n->setLanguage((string) ($request->getData('language') ?? 'en'));
+            $code->l11n->setLanguage($request->getDataString('language') ?? 'en');
         }
 
         return $code;
@@ -171,8 +171,253 @@ final class ApiController extends Controller
         $l11n->short = $request->getDataString('short') ?? '';
         $l11n->long  = $request->getDataString('long') ?? '';
         $l11n->code  = $request->getDataInt('code') ?? 0;
-        $l11n->setLanguage((string) ($request->getDataString('language') ?? $request->header->l11n->language));
+        $l11n->setLanguage($request->getDataString('language') ?? $request->header->l11n->language);
 
         return $l11n;
+    }
+
+    /**
+     * Api method to update TaxCode
+     *
+     * @param RequestAbstract  $request  Request
+     * @param ResponseAbstract $response Response
+     * @param mixed            $data     Generic data
+     *
+     * @return void
+     *
+     * @api
+     *
+     * @since 1.0.0
+     */
+    public function apiTaxCodeUpdate(RequestAbstract $request, ResponseAbstract $response, mixed $data = null) : void
+    {
+        if (!empty($val = $this->validateTaxCodeUpdate($request))) {
+            $response->header->status = RequestStatusCode::R_400;
+            $this->createInvalidUpdateResponse($request, $response, $val);
+
+            return;
+        }
+
+        /** @var \Modules\Finance\Models\TaxCode $old */
+        $old = TaxCodeMapper::get()->where('id', (int) $request->getData('id'))->execute();
+        $new = $this->updateTaxCodeFromRequest($request, clone $old);
+
+        $this->updateModel($request->header->account, $old, $new, TaxCodeMapper::class, 'tax_code', $request->getOrigin());
+        $this->createStandardUpdateResponse($request, $response, $new);
+    }
+
+    /**
+     * Method to update TaxCode from request.
+     *
+     * @param RequestAbstract  $request Request
+     * @param TaxCode     $new     Model to modify
+     *
+     * @return TaxCode
+     *
+     * @todo: implement
+     *
+     * @since 1.0.0
+     */
+    public function updateTaxCodeFromRequest(RequestAbstract $request, TaxCode $new) : TaxCode
+    {
+        $new->abbr              = $request->getDataString('abbr') ?? $new->abbr;
+        $new->percentageInvoice = $request->getDataInt('percentage_invoice') ?? $new->percentageInvoice;
+        $new->percentageSales   = $request->getDataInt('percentage_sales_tax') ?? $new->percentageSales;
+        $new->percentageInput   = $request->getDataInt('percentage_input_tax') ?? $new->percentageInput;
+
+        return $new;
+    }
+
+    /**
+     * Validate TaxCode update request
+     *
+     * @param RequestAbstract $request Request
+     *
+     * @return array<string, bool>
+     *
+     * @todo: implement
+     *
+     * @since 1.0.0
+     */
+    private function validateTaxCodeUpdate(RequestAbstract $request) : array
+    {
+        $val = [];
+        if (($val['id'] = !$request->hasData('id'))) {
+            return $val;
+        }
+
+        return [];
+    }
+
+    /**
+     * Api method to delete TaxCode
+     *
+     * @param RequestAbstract  $request  Request
+     * @param ResponseAbstract $response Response
+     * @param mixed            $data     Generic data
+     *
+     * @return void
+     *
+     * @api
+     *
+     * @since 1.0.0
+     */
+    public function apiTaxCodeDelete(RequestAbstract $request, ResponseAbstract $response, mixed $data = null) : void
+    {
+        if (!empty($val = $this->validateTaxCodeDelete($request))) {
+            $response->header->status = RequestStatusCode::R_400;
+            $this->createInvalidDeleteResponse($request, $response, $val);
+
+            return;
+        }
+
+        /** @var \Modules\Finance\Models\TaxCode $taxCode */
+        $taxCode = TaxCodeMapper::get()->where('id', (int) $request->getData('id'))->execute();
+        $this->deleteModel($request->header->account, $taxCode, TaxCodeMapper::class, 'tax_code', $request->getOrigin());
+        $this->createStandardDeleteResponse($request, $response, $taxCode);
+    }
+
+    /**
+     * Validate TaxCode delete request
+     *
+     * @param RequestAbstract $request Request
+     *
+     * @return array<string, bool>
+     *
+     * @todo: implement
+     *
+     * @since 1.0.0
+     */
+    private function validateTaxCodeDelete(RequestAbstract $request) : array
+    {
+        $val = [];
+        if (($val['id'] = !$request->hasData('id'))) {
+            return $val;
+        }
+
+        return [];
+    }
+
+    /**
+     * Api method to update TaxCodeL11n
+     *
+     * @param RequestAbstract  $request  Request
+     * @param ResponseAbstract $response Response
+     * @param mixed            $data     Generic data
+     *
+     * @return void
+     *
+     * @api
+     *
+     * @since 1.0.0
+     */
+    public function apiTaxCodeL11nUpdate(RequestAbstract $request, ResponseAbstract $response, mixed $data = null) : void
+    {
+        if (!empty($val = $this->validateTaxCodeL11nUpdate($request))) {
+            $response->header->status = RequestStatusCode::R_400;
+            $this->createInvalidUpdateResponse($request, $response, $val);
+
+            return;
+        }
+
+        /** @var \Modules\Finance\Models\TaxCodeL11n $old */
+        $old = TaxCodeL11nMapper::get()->where('id', (int) $request->getData('id'))->execute();
+        $new = $this->updateTaxCodeL11nFromRequest($request, clone $old);
+
+        $this->updateModel($request->header->account, $old, $new, TaxCodeL11nMapper::class, 'tax_code_l11n', $request->getOrigin());
+        $this->createStandardUpdateResponse($request, $response, $new);
+    }
+
+    /**
+     * Method to update TaxCodeL11n from request.
+     *
+     * @param RequestAbstract  $request Request
+     * @param TaxCodeL11n     $new     Model to modify
+     *
+     * @return TaxCodeL11n
+     *
+     * @todo: implement
+     *
+     * @since 1.0.0
+     */
+    public function updateTaxCodeL11nFromRequest(RequestAbstract $request, TaxCodeL11n $new) : TaxCodeL11n
+    {
+        $new->title = $request->getDataString('title') ?? $new->title;
+        $new->short = $request->getDataString('short') ?? $new->short;
+        $new->long  = $request->getDataString('long') ?? $new->long;
+        $new->code  = $request->getDataInt('code') ?? $new->code;
+        $new->setLanguage($request->getDataString('language') ?? $new->language);
+
+        return $new;
+    }
+
+    /**
+     * Validate TaxCodeL11n update request
+     *
+     * @param RequestAbstract $request Request
+     *
+     * @return array<string, bool>
+     *
+     * @todo: implement
+     *
+     * @since 1.0.0
+     */
+    private function validateTaxCodeL11nUpdate(RequestAbstract $request) : array
+    {
+        $val = [];
+        if (($val['id'] = !$request->hasData('id'))) {
+            return $val;
+        }
+
+        return [];
+    }
+
+    /**
+     * Api method to delete TaxCodeL11n
+     *
+     * @param RequestAbstract  $request  Request
+     * @param ResponseAbstract $response Response
+     * @param mixed            $data     Generic data
+     *
+     * @return void
+     *
+     * @api
+     *
+     * @since 1.0.0
+     */
+    public function apiTaxCodeL11nDelete(RequestAbstract $request, ResponseAbstract $response, mixed $data = null) : void
+    {
+        if (!empty($val = $this->validateTaxCodeL11nDelete($request))) {
+            $response->header->status = RequestStatusCode::R_400;
+            $this->createInvalidDeleteResponse($request, $response, $val);
+
+            return;
+        }
+
+        /** @var \Modules\Finance\Models\TaxCodeL11n $taxCodeL11n */
+        $taxCodeL11n = TaxCodeL11nMapper::get()->where('id', (int) $request->getData('id'))->execute();
+        $this->deleteModel($request->header->account, $taxCodeL11n, TaxCodeL11nMapper::class, 'tax_code_l11n', $request->getOrigin());
+        $this->createStandardDeleteResponse($request, $response, $taxCodeL11n);
+    }
+
+    /**
+     * Validate TaxCodeL11n delete request
+     *
+     * @param RequestAbstract $request Request
+     *
+     * @return array<string, bool>
+     *
+     * @todo: implement
+     *
+     * @since 1.0.0
+     */
+    private function validateTaxCodeL11nDelete(RequestAbstract $request) : array
+    {
+        $val = [];
+        if (($val['id'] = !$request->hasData('id'))) {
+            return $val;
+        }
+
+        return [];
     }
 }
