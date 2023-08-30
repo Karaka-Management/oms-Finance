@@ -209,8 +209,8 @@ final class ApiController extends Controller
     /**
      * Method to update TaxCode from request.
      *
-     * @param RequestAbstract  $request Request
-     * @param TaxCode     $new     Model to modify
+     * @param RequestAbstract $request Request
+     * @param TaxCode         $new     Model to modify
      *
      * @return TaxCode
      *
@@ -331,7 +331,7 @@ final class ApiController extends Controller
     /**
      * Method to update TaxCodeL11n from request.
      *
-     * @param RequestAbstract  $request Request
+     * @param RequestAbstract $request Request
      * @param TaxCodeL11n     $new     Model to modify
      *
      * @return TaxCodeL11n
