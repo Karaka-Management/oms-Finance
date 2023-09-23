@@ -12,7 +12,7 @@
  */
 declare(strict_types=1);
 
-return ['Sales' => [
+return ['Finance' => [
     'Account'              => '계정',
     'Active'               => '활동적인',
     'Activity'             => '활동',

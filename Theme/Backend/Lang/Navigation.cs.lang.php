@@ -13,12 +13,16 @@
 declare(strict_types=1);
 
 return ['Navigation' => [
-    'Analysis' => 'Analýza',
-    'Articles' => 'Články',
-    'Clients'  => 'Klienti',
-    'Create'   => 'Vytvořit',
-    'Invoice'  => 'Faktura',
-    'Invoices' => 'Faktury',
-    'Profile'  => 'Profil',
-    'Sales'    => 'Odbyt',
+    'Account'   => '',
+    'Analysis'  => 'Analýza',
+    'Articles'  => 'Články',
+    'Clients'   => 'Klienti',
+    'Create'    => 'Vytvořit',
+    'Finance'   => '',
+    'Invoice'   => 'Faktura',
+    'Invoices'  => 'Faktury',
+    'Items'     => '',
+    'Profile'   => 'Profil',
+    'Sales'     => 'Odbyt',
+    'Suppliers' => '',
 ]];

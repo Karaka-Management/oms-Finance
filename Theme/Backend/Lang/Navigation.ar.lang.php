@@ -13,12 +13,16 @@
 declare(strict_types=1);
 
 return ['Navigation' => [
-    'Analysis' => 'التحليلات',
-    'Articles' => 'مقالات',
-    'Clients'  => 'عملاء',
-    'Create'   => 'يخلق',
-    'Invoice'  => 'فاتورة',
-    'Invoices' => 'الفواتير',
-    'Profile'  => 'الملف الشخصي',
-    'Sales'    => 'مبيعات',
+    'Account'   => '',
+    'Analysis'  => 'التحليلات',
+    'Articles'  => 'مقالات',
+    'Clients'   => 'عملاء',
+    'Create'    => 'يخلق',
+    'Finance'   => '',
+    'Invoice'   => 'فاتورة',
+    'Invoices'  => 'الفواتير',
+    'Items'     => '',
+    'Profile'   => 'الملف الشخصي',
+    'Sales'     => 'مبيعات',
+    'Suppliers' => '',
 ]];

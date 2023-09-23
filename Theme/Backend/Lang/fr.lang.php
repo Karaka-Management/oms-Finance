@@ -12,7 +12,7 @@
  */
 declare(strict_types=1);
 
-return ['Sales' => [
+return ['Finance' => [
     'Account'              => 'Compte',
     'Active'               => 'actif',
     'Activity'             => 'Activité',
@@ -68,7 +68,7 @@ return ['Sales' => [
     'Loginname'            => 'Identifiant',
     'Matchcode'            => 'Encadrement',
     'Media'                => 'Médias',
-    'MinPrice'             => "Prix \u{200b}\u{200b}min",
+    'MinPrice'             => 'Prix ​​min',
     'Name'                 => 'Nom',
     'Name1'                => 'Nom 1',
     'Name2'                => 'Nom 2',

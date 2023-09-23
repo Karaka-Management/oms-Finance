@@ -13,12 +13,16 @@
 declare(strict_types=1);
 
 return ['Navigation' => [
-    'Analysis' => 'Elemzés',
-    'Articles' => 'Árucikkek',
-    'Clients'  => 'Kliensek',
-    'Create'   => 'Teremt',
-    'Invoice'  => 'Számla',
-    'Invoices' => 'Számlák',
-    'Profile'  => 'Profil',
-    'Sales'    => 'Értékesítés',
+    'Account'   => '',
+    'Analysis'  => 'Elemzés',
+    'Articles'  => 'Árucikkek',
+    'Clients'   => 'Kliensek',
+    'Create'    => 'Teremt',
+    'Finance'   => '',
+    'Invoice'   => 'Számla',
+    'Invoices'  => 'Számlák',
+    'Items'     => '',
+    'Profile'   => 'Profil',
+    'Sales'     => 'Értékesítés',
+    'Suppliers' => '',
 ]];

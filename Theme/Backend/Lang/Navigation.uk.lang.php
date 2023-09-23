@@ -13,12 +13,16 @@
 declare(strict_types=1);
 
 return ['Navigation' => [
-    'Analysis' => 'Аналіз',
-    'Articles' => 'Статті',
-    'Clients'  => 'Клієнти',
-    'Create'   => 'Створювати',
-    'Invoice'  => 'Рахунок-фактура',
-    'Invoices' => 'Рахунки-фактури',
-    'Profile'  => 'Профіль',
-    'Sales'    => 'Продаж',
+    'Account'   => '',
+    'Analysis'  => 'Аналіз',
+    'Articles'  => 'Статті',
+    'Clients'   => 'Клієнти',
+    'Create'    => 'Створювати',
+    'Finance'   => '',
+    'Invoice'   => 'Рахунок-фактура',
+    'Invoices'  => 'Рахунки-фактури',
+    'Items'     => '',
+    'Profile'   => 'Профіль',
+    'Sales'     => 'Продаж',
+    'Suppliers' => '',
 ]];

@@ -12,7 +12,7 @@
  */
 declare(strict_types=1);
 
-return ['Sales' => [
+return ['Finance' => [
     'Account'              => '帐户',
     'Active'               => '积极的',
     'Activity'             => '活动',
