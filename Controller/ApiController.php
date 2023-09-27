@@ -58,7 +58,7 @@ final class ApiController extends Controller
      *
      * @param RequestAbstract  $request  Request
      * @param ResponseAbstract $response Response
-     * @param mixed            $data     Generic data
+     * @param array            $data     Generic data
      *
      * @return void
      *
@@ -66,7 +66,7 @@ final class ApiController extends Controller
      *
      * @since 1.0.0
      */
-    public function apiTaxCodeCreate(RequestAbstract $request, ResponseAbstract $response, mixed $data = null) : void
+    public function apiTaxCodeCreate(RequestAbstract $request, ResponseAbstract $response, array $data = []) : void
     {
         if (!empty($val = $this->validateTaxCodeCreate($request))) {
             $response->header->status = RequestStatusCode::R_400;
@@ -133,7 +133,7 @@ final class ApiController extends Controller
      *
      * @param RequestAbstract  $request  Request
      * @param ResponseAbstract $response Response
-     * @param mixed            $data     Generic data
+     * @param array            $data     Generic data
      *
      * @return void
      *
@@ -141,7 +141,7 @@ final class ApiController extends Controller
      *
      * @since 1.0.0
      */
-    public function apiTaxCodeL11nCreate(RequestAbstract $request, ResponseAbstract $response, mixed $data = null) : void
+    public function apiTaxCodeL11nCreate(RequestAbstract $request, ResponseAbstract $response, array $data = []) : void
     {
         if (!empty($val = $this->validateTaxCodeL11nCreate($request))) {
             $response->header->status = RequestStatusCode::R_400;
@@ -181,7 +181,7 @@ final class ApiController extends Controller
      *
      * @param RequestAbstract  $request  Request
      * @param ResponseAbstract $response Response
-     * @param mixed            $data     Generic data
+     * @param array            $data     Generic data
      *
      * @return void
      *
@@ -189,7 +189,7 @@ final class ApiController extends Controller
      *
      * @since 1.0.0
      */
-    public function apiTaxCodeUpdate(RequestAbstract $request, ResponseAbstract $response, mixed $data = null) : void
+    public function apiTaxCodeUpdate(RequestAbstract $request, ResponseAbstract $response, array $data = []) : void
     {
         if (!empty($val = $this->validateTaxCodeUpdate($request))) {
             $response->header->status = RequestStatusCode::R_400;
@@ -254,7 +254,7 @@ final class ApiController extends Controller
      *
      * @param RequestAbstract  $request  Request
      * @param ResponseAbstract $response Response
-     * @param mixed            $data     Generic data
+     * @param array            $data     Generic data
      *
      * @return void
      *
@@ -262,7 +262,7 @@ final class ApiController extends Controller
      *
      * @since 1.0.0
      */
-    public function apiTaxCodeDelete(RequestAbstract $request, ResponseAbstract $response, mixed $data = null) : void
+    public function apiTaxCodeDelete(RequestAbstract $request, ResponseAbstract $response, array $data = []) : void
     {
         if (!empty($val = $this->validateTaxCodeDelete($request))) {
             $response->header->status = RequestStatusCode::R_400;
@@ -303,7 +303,7 @@ final class ApiController extends Controller
      *
      * @param RequestAbstract  $request  Request
      * @param ResponseAbstract $response Response
-     * @param mixed            $data     Generic data
+     * @param array            $data     Generic data
      *
      * @return void
      *
@@ -311,7 +311,7 @@ final class ApiController extends Controller
      *
      * @since 1.0.0
      */
-    public function apiTaxCodeL11nUpdate(RequestAbstract $request, ResponseAbstract $response, mixed $data = null) : void
+    public function apiTaxCodeL11nUpdate(RequestAbstract $request, ResponseAbstract $response, array $data = []) : void
     {
         if (!empty($val = $this->validateTaxCodeL11nUpdate($request))) {
             $response->header->status = RequestStatusCode::R_400;
@@ -377,7 +377,7 @@ final class ApiController extends Controller
      *
      * @param RequestAbstract  $request  Request
      * @param ResponseAbstract $response Response
-     * @param mixed            $data     Generic data
+     * @param array            $data     Generic data
      *
      * @return void
      *
@@ -385,7 +385,7 @@ final class ApiController extends Controller
      *
      * @since 1.0.0
      */
-    public function apiTaxCodeL11nDelete(RequestAbstract $request, ResponseAbstract $response, mixed $data = null) : void
+    public function apiTaxCodeL11nDelete(RequestAbstract $request, ResponseAbstract $response, array $data = []) : void
     {
         if (!empty($val = $this->validateTaxCodeL11nDelete($request))) {
             $response->header->status = RequestStatusCode::R_400;
