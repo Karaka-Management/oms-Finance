@@ -1,26 +1,26 @@
 <?php
 /**
- * Karaka
+ * Jingga
  *
  * PHP Version 8.1
  *
  * @package   Modules/tests
  * @copyright Dennis Eichhorn
- * @license   OMS License 1.0
+ * @license   OMS License 2.0
  * @version   1.0.0
  * @link      https://jingga.app
  */
 declare(strict_types=1);
 
-namespace tests;
+namespace Modules\Finance\tests;
 
-\spl_autoload_register('\tests\Autoloader::defaultAutoloader');
+\spl_autoload_register('\Modules\Finance\tests\Autoloader::defaultAutoloader');
 
 /**
  * Autoloader class.
  *
  * @package tests
- * @license OMS License 1.0
+ * @license OMS License 2.0
  * @link    https://jingga.app
  * @since   1.0.0
  */
@@ -34,7 +34,7 @@ final class Autoloader
      */
     private static $paths = [
         __DIR__ . '/../',
-        __DIR__ . '/../Karaka/',
+        __DIR__ . '/../MainRepository/',
         __DIR__ . '/../../',
     ];
 
@@ -59,7 +59,7 @@ final class Autoloader
      */
     public static function addPath(string $path) : void
     {
-        self::$paths[] = $path;
+        self::$paths[] = \rtrim($path, '/\\') . '/';
     }
 
     /**
@@ -71,20 +71,37 @@ final class Autoloader
      *
      * @return void
      *
-     * @throws AutoloadException Throws this exception if the class to autoload doesn't exist. This could also be related to a wrong namespace/file path correlation.
-     *
      * @since 1.0.0
      */
     public static function defaultAutoloader(string $class) : void
     {
-        $class = \ltrim($class, '\\');
-        $class = \str_replace(['_', '\\'], '/', $class);
+        $class  = \ltrim($class, '\\');
+        $class  = \strtr($class, '_\\', '//');
+
+        if (\stripos($class, 'Web/Backend') !== false || \stripos($class, 'Web/Api') !== false) {
+            $class = \is_dir(__DIR__ . '/Web') ? $class : \str_replace('Web/', 'Karaka/Web/', $class);
+        }
+
+        $class2 = $class;
+        $class3 = $class;
+
+        $pos = \stripos($class, '/');
+        if ($pos !== false) {
+            $class3 = \substr($class, $pos + 1);
+
+            $pos = \stripos($class, '/', $pos + 1);
+
+            if ($pos !== false) {
+                $class2 = \substr($class, $pos + 1);
+            }
+        }
 
         foreach (self::$paths as $path) {
-            $file = $path . $class . '.php';
-            $file = \str_replace('/Modules/', '/', $file);
+            if (($file = \realpath($path . $class2 . '.php')) !== false && \stripos($file, $class3) !== false) {
+                include_once $file;
 
-            if (\is_file($file)) {
+                return;
+            } elseif (\is_file($file = $path . $class . '.php')) {
                 include_once $file;
 
                 return;

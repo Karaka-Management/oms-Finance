@@ -1,24 +1,28 @@
 <?php
 /**
- * Karaka
+ * Jingga
  *
  * PHP Version 8.1
  *
  * @package   Modules\Localization
  * @copyright Dennis Eichhorn
- * @license   OMS License 1.0
+ * @license   OMS License 2.0
  * @version   1.0.0
  * @link      https://jingga.app
  */
 declare(strict_types=1);
 
 return ['Navigation' => [
-    'Analysis' => 'Анализ',
-    'Articles' => 'Статьи',
-    'Clients'  => 'Клиенты',
-    'Create'   => 'Создавать',
-    'Invoice'  => 'Счет',
-    'Invoices' => 'Счета',
-    'Profile'  => 'Профиль',
-    'Sales'    => 'Продажи',
+    'Account'   => '',
+    'Analysis'  => 'Анализ',
+    'Articles'  => 'Статьи',
+    'Clients'   => 'Клиенты',
+    'Create'    => 'Создавать',
+    'Finance'   => '',
+    'Invoice'   => 'Счет',
+    'Invoices'  => 'Счета',
+    'Items'     => '',
+    'Profile'   => 'Профиль',
+    'Sales'     => 'Продажи',
+    'Suppliers' => '',
 ]];

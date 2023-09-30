@@ -1,0 +1,76 @@
+{
+    "tax_code": {
+        "name": "tax_code",
+        "fields": {
+            "tax_code_id": {
+                "name": "tax_code_id",
+                "type": "INT",
+                "null": false,
+                "primary": true,
+                "autoincrement": true
+            },
+            "tax_code_abbr": {
+                "name": "tax_code_abbr",
+                "type": "VARCHAR(10)",
+                "null": false,
+                "unique": true
+            },
+            "tax_code_invoice": {
+                "name": "tax_code_invoice",
+                "type": "INT(11)",
+                "null": false
+            },
+            "tax_code_sales": {
+                "name": "tax_code_sales",
+                "type": "INT(11)",
+                "null": false
+            },
+            "tax_code_input": {
+                "name": "tax_code_input",
+                "type": "INT(11)",
+                "null": false
+            }
+        }
+    },
+    "tax_code_l11n": {
+        "name": "tax_code_l11n",
+        "fields": {
+            "tax_code_l11n_id": {
+                "name": "tax_code_l11n_id",
+                "type": "INT",
+                "null": false,
+                "primary": true,
+                "autoincrement": true
+            },
+            "tax_code_l11n_text_title": {
+                "name": "tax_code_l11n_text_title",
+                "type": "VARCHAR(255)",
+                "null": false
+            },
+            "tax_code_l11n_text_short": {
+                "name": "tax_code_l11n_text_short",
+                "type": "VARCHAR(255)",
+                "null": false
+            },
+            "tax_code_l11n_text_long": {
+                "name": "tax_code_l11n_text_long",
+                "type": "VARCHAR(255)",
+                "null": false
+            },
+            "tax_code_l11n_lang": {
+                "name": "tax_code_l11n_lang",
+                "type": "VARCHAR(2)",
+                "null": false,
+                "foreignTable": "language",
+                "foreignKey": "language_639_1"
+            },
+            "tax_code_l11n_code": {
+                "name": "tax_code_l11n_code",
+                "type": "INT(11)",
+                "null": false,
+                "foreignTable": "tax_code",
+                "foreignKey": "tax_code_id"
+            }
+        }
+    }
+}

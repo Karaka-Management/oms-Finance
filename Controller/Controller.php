@@ -1,12 +1,12 @@
 <?php
 /**
- * Karaka
+ * Jingga
  *
  * PHP Version 8.1
  *
  * @package   Modules\Finance
  * @copyright Dennis Eichhorn
- * @license   OMS License 1.0
+ * @license   OMS License 2.0
  * @version   1.0.0
  * @link      https://jingga.app
  */
@@ -20,7 +20,7 @@ use phpOMS\Module\ModuleAbstract;
  * Finance class.
  *
  * @package Modules\Finance
- * @license OMS License 1.0
+ * @license OMS License 2.0
  * @link    https://jingga.app
  * @since   1.0.0
  */
@@ -64,7 +64,7 @@ class Controller extends ModuleAbstract
      * @var string[]
      * @since 1.0.0
      */
-    protected static array $providing = [];
+    public static array $providing = [];
 
     /**
      * Dependencies.
@@ -72,5 +72,5 @@ class Controller extends ModuleAbstract
      * @var string[]
      * @since 1.0.0
      */
-    protected static array $dependencies = [];
+    public static array $dependencies = [];
 }

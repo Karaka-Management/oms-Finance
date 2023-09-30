@@ -14,19 +14,33 @@ declare(strict_types=1);
 
 namespace Modules\Finance\Models;
 
-use phpOMS\Stdlib\Base\Enum;
-
 /**
- * Permision state enum.
+ * Null model
  *
  * @package Modules\Finance\Models
  * @license OMS License 2.0
  * @link    https://jingga.app
  * @since   1.0.0
  */
-abstract class PermissionCategory extends Enum
+final class NullTaxCode extends TaxCode
 {
-    public const ARCHIVE = 1;
+    /**
+     * Constructor
+     *
+     * @param int $id Model id
+     *
+     * @since 1.0.0
+     */
+    public function __construct(int $id = 0)
+    {
+        $this->id = $id;
+    }
 
-    public const ANALYSIS = 2;
+    /**
+     * {@inheritdoc}
+     */
+    public function jsonSerialize() : mixed
+    {
+        return ['id' => $this->id];
+    }
 }

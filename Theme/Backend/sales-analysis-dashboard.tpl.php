@@ -1,12 +1,12 @@
 <?php
 /**
- * Karaka
+ * Jingga
  *
  * PHP Version 8.1
  *
  * @package   Modules\Billing
  * @copyright Dennis Eichhorn
- * @license   OMS License 1.0
+ * @license   OMS License 2.0
  * @version   1.0.0
  * @link      https://jingga.app
  */
@@ -18,7 +18,7 @@ use phpOMS\Localization\Money;
  * @var \phpOMS\Views\View $this
  */
 
-echo $this->getData('nav')->render();
+echo $this->data['nav']->render();
 ?>
 
 <div class="row">
@@ -119,7 +119,7 @@ echo $this->getData('nav')->render();
                 Sales / Profit - Monthly
                 <?php include __DIR__ . '/../../../../Web/Backend/Themes/popup-export-data.tpl.php'; ?>
             </div>
-            <?php $salesCustomer = $this->getData('monthlySalesCustomer'); ?>
+            <?php $salesCustomer = $this->data['monthlySalesCustomer']; ?>
             <div class="portlet-body">
                 <canvas id="sales-region" data-chart='{
                                 "type": "bar",
@@ -223,7 +223,7 @@ echo $this->getData('nav')->render();
                             ?>
                                 <tr>
                                     <td><?= $values['month'] . '/' . \substr((string) $values['year'], -2); ?>
-                                    <td><?= (new Money(((int) $values['net_sales']) / 1000))->getCurrency(); ?>
+                                    <td><?= (new Money(((int) $values['net_sales']) / 10000))->getCurrency(); ?>
                                     <td><?= ((int) $values['customers']); ?>
                             <?php endforeach; ?>
                                 <tr>
@@ -243,7 +243,7 @@ echo $this->getData('nav')->render();
                 Sales / Profit - Annual
                 <?php include __DIR__ . '/../../../../Web/Backend/Themes/popup-export-data.tpl.php'; ?>
             </div>
-            <?php $salesCustomer = $this->getData('annualSalesCustomer'); ?>
+            <?php $salesCustomer = $this->data['annualSalesCustomer']; ?>
             <div class="portlet-body">
                 <canvas id="sales-customer-annual" data-chart='{
                                 "type": "bar",
@@ -343,7 +343,7 @@ echo $this->getData('nav')->render();
                             ?>
                                 <tr>
                                     <td><?= (string) $values['year']; ?>
-                                    <td><?= (new Money(((int) $values['net_sales']) / 1000))->getCurrency(); ?>
+                                    <td><?= (new Money(((int) $values['net_sales']) / 10000))->getCurrency(); ?>
                                     <td><?= ((int) $values['customers']); ?>
                             <?php endforeach; ?>
                     </table>

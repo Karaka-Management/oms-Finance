@@ -1,12 +1,12 @@
 <?php
 /**
- * Karaka
+ * Jingga
  *
  * PHP Version 8.1
  *
  * @package   Modules\Sales
  * @copyright Dennis Eichhorn
- * @license   OMS License 1.0
+ * @license   OMS License 2.0
  * @version   1.0.0
  * @link      https://jingga.app
  */
@@ -24,7 +24,7 @@ use phpOMS\Views\View;
  * Finance class.
  *
  * @package Modules\Finance
- * @license OMS License 1.0
+ * @license OMS License 2.0
  * @link    https://jingga.app
  * @since   1.0.0
  * @codeCoverageIgnore
@@ -36,22 +36,24 @@ final class BackendController extends Controller
      *
      * @param RequestAbstract  $request  Request
      * @param ResponseAbstract $response Response
-     * @param mixed            $data     Generic data
+     * @param array            $data     Generic data
      *
      * @return RenderableInterface Response can be rendered
      *
      * @since 1.0.0
      */
-    public function viewDashboard(RequestAbstract $request, ResponseAbstract $response, mixed $data = null) : RenderableInterface
+    public function viewDashboard(RequestAbstract $request, ResponseAbstract $response, array $data = []) : RenderableInterface
     {
-        $head = $response->get('Content')->getData('head');
+        $head  = $response->data['Content']->head;
+        $nonce = $this->app->appSettings->getOption('script-nonce');
+
         $head->addAsset(AssetType::CSS, 'Resources/chartjs/Chartjs/chart.css');
-        $head->addAsset(AssetType::JSLATE, 'Resources/chartjs/Chartjs/chart.js');
-        $head->addAsset(AssetType::JSLATE, 'Modules/ClientManagement/Controller.js', ['type' => 'module']);
+        $head->addAsset(AssetType::JSLATE, 'Resources/chartjs/Chartjs/chart.js', ['nonce' => $nonce]);
+        $head->addAsset(AssetType::JSLATE, 'Modules/ClientManagement/Controller.js', ['nonce' => $nonce, 'type' => 'module']);
 
         $view = new View($this->app->l11nManager, $request, $response);
         $view->setTemplate('/Modules/Sales/Theme/Backend/sales-analysis-dashboard');
-        $view->addData('nav', $this->app->moduleManager->get('Navigation')->createNavigationMid(1001602001, $request, $response));
+        $view->data['nav'] = $this->app->moduleManager->get('Navigation')->createNavigationMid(1001602001, $request, $response);
 
         /////
         $monthlySalesCustomer = [];
@@ -64,7 +66,7 @@ final class BackendController extends Controller
             ];
         }
 
-        $view->addData('monthlySalesCustomer', $monthlySalesCustomer);
+        $view->data['monthlySalesCustomer'] = $monthlySalesCustomer;
 
         $annualSalesCustomer = [];
         for ($i = 1; $i < 11; ++$i) {
@@ -75,7 +77,7 @@ final class BackendController extends Controller
             ];
         }
 
-        $view->addData('annualSalesCustomer', $annualSalesCustomer);
+        $view->data['annualSalesCustomer'] = $annualSalesCustomer;
 
         return $view;
     }
