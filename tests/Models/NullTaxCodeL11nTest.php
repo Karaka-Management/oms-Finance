@@ -47,6 +47,6 @@ final class NullTaxCodeL11nTest extends \PHPUnit\Framework\TestCase
     public function testJsonSerialize() : void
     {
         $null = new NullTaxCodeL11n(2);
-        self::assertEquals(['id' => 2], $null);
+        self::assertEquals(['id' => 2], $null->jsonSerialize());
     }
 }
