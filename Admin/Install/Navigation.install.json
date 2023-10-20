@@ -7,7 +7,7 @@
         "name": "Finance",
         "uri": null,
         "target": "self",
-        "icon": "book",
+        "icon": "account_balance",
         "order": 50,
         "from": "Finance",
         "permission": { "permission": 2, "category": null, "element": null },
