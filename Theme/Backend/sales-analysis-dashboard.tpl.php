@@ -207,7 +207,7 @@ echo $this->data['nav']->render();
                         <i class="g-icon expand">chevron_right</i>
                     </label>
                     <div>
-                    <table class="default">
+                    <table class="default sticky">
                         <thead>
                             <tr>
                                 <td>Month
@@ -331,7 +331,7 @@ echo $this->data['nav']->render();
                         <i class="g-icon expand">chevron_right</i>
                     </label>
                     <div>
-                    <table class="default">
+                    <table class="default sticky">
                         <thead>
                             <tr>
                                 <td>Year
@@ -361,7 +361,7 @@ echo $this->data['nav']->render();
                 Sales / Attribute
                 <?php include __DIR__ . '/../../../../Web/Backend/Themes/popup-export-data.tpl.php'; ?>
             </div>
-            <table class="default">
+            <table class="default sticky">
                 <thead>
                     <tr>
                         <td>Product
@@ -383,7 +383,7 @@ echo $this->data['nav']->render();
                 Sales / Region
                 <?php include __DIR__ . '/../../../../Web/Backend/Themes/popup-export-data.tpl.php'; ?>
             </div>
-            <table class="default">
+            <table class="default sticky">
                 <thead>
                     <tr>
                         <td>Country
