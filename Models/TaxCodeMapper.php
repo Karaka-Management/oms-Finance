@@ -36,11 +36,11 @@ final class TaxCodeMapper extends DataMapperFactory
      * @since 1.0.0
      */
     public const COLUMNS = [
-        'tax_code_id'            => ['name' => 'tax_code_id',            'type' => 'int',          'internal' => 'id'],
-        'tax_code_abbr'          => ['name' => 'tax_code_abbr',        'type' => 'string',          'internal' => 'abbr'],
-        'tax_code_invoice'       => ['name' => 'tax_code_invoice',    'type' => 'int', 'internal' => 'percentageInvoice'],
-        'tax_code_sales'         => ['name' => 'tax_code_sales',    'type' => 'int', 'internal' => 'percentageSales'],
-        'tax_code_input'         => ['name' => 'tax_code_input',    'type' => 'int', 'internal' => 'percentageInput'],
+        'tax_code_id'      => ['name' => 'tax_code_id',            'type' => 'int',          'internal' => 'id'],
+        'tax_code_abbr'    => ['name' => 'tax_code_abbr',        'type' => 'string',          'internal' => 'abbr'],
+        'tax_code_invoice' => ['name' => 'tax_code_invoice',    'type' => 'int', 'internal' => 'percentageInvoice'],
+        'tax_code_sales'   => ['name' => 'tax_code_sales',    'type' => 'int', 'internal' => 'percentageSales'],
+        'tax_code_input'   => ['name' => 'tax_code_input',    'type' => 'int', 'internal' => 'percentageInput'],
     ];
 
     /**

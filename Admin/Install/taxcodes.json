@@ -70,9 +70,9 @@
     },
     "DE_V07": {
         "abbr": "DE_V07",
-        "percentage_invoice": 700,
-        "percentage_sales_tax": 700,
-        "percentage_input_tax": 700,
+        "percentage_invoice": 70000,
+        "percentage_sales_tax": 70000,
+        "percentage_input_tax": 70000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -89,9 +89,9 @@
     },
     "DE_V19": {
         "abbr": "DE_V19",
-        "percentage_invoice": 1900,
-        "percentage_sales_tax": 1900,
-        "percentage_input_tax": 1900,
+        "percentage_invoice": 190000,
+        "percentage_sales_tax": 190000,
+        "percentage_input_tax": 190000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -127,9 +127,9 @@
     },
     "DE_M07": {
         "abbr": "DE_M07",
-        "percentage_invoice": 700,
-        "percentage_sales_tax": 700,
-        "percentage_input_tax": 700,
+        "percentage_invoice": 70000,
+        "percentage_sales_tax": 70000,
+        "percentage_input_tax": 70000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -146,9 +146,9 @@
     },
     "DE_M19": {
         "abbr": "DE_M19",
-        "percentage_invoice": 1900,
-        "percentage_sales_tax": 1900,
-        "percentage_input_tax": 1900,
+        "percentage_invoice": 190000,
+        "percentage_sales_tax": 190000,
+        "percentage_input_tax": 190000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -166,8 +166,8 @@
     "DE_E19": {
         "abbr": "DE_E19",
         "percentage_invoice": 0,
-        "percentage_sales_tax": 1900,
-        "percentage_input_tax": 1900,
+        "percentage_sales_tax": 190000,
+        "percentage_input_tax": 190000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -215,9 +215,9 @@
     "AT_S20": {
         "abbr": "AT_S20",
 
-        "percentage_invoice": 2000,
-        "percentage_sales_tax": 2000,
-        "percentage_input_tax": 2000,
+        "percentage_invoice": 200000,
+        "percentage_sales_tax": 200000,
+        "percentage_input_tax": 200000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -238,9 +238,9 @@
     },
     "AT_S13": {
         "abbr": "AT_S13",
-        "percentage_invoice": 1300,
-        "percentage_sales_tax": 1300,
-        "percentage_input_tax": 1300,
+        "percentage_invoice": 130000,
+        "percentage_sales_tax": 130000,
+        "percentage_input_tax": 130000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -261,9 +261,9 @@
     },
     "AT_S10": {
         "abbr": "AT_S10",
-        "percentage_invoice": 1000,
-        "percentage_sales_tax": 1000,
-        "percentage_input_tax": 1000,
+        "percentage_invoice": 100000,
+        "percentage_sales_tax": 100000,
+        "percentage_input_tax": 100000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -307,9 +307,9 @@
     },
     "BE_S21": {
         "abbr": "BE_S21",
-        "percentage_invoice": 2100,
-        "percentage_sales_tax": 2100,
-        "percentage_input_tax": 2100,
+        "percentage_invoice": 210000,
+        "percentage_sales_tax": 210000,
+        "percentage_input_tax": 210000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -330,9 +330,9 @@
     },
     "BE_S12": {
         "abbr": "BE_S12",
-        "percentage_invoice": 1200,
-        "percentage_sales_tax": 1200,
-        "percentage_input_tax": 1200,
+        "percentage_invoice": 120000,
+        "percentage_sales_tax": 120000,
+        "percentage_input_tax": 120000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -353,9 +353,9 @@
     },
     "BE_S6": {
         "abbr": "BE_S6",
-        "percentage_invoice": 600,
-        "percentage_sales_tax": 600,
-        "percentage_input_tax": 600,
+        "percentage_invoice": 60000,
+        "percentage_sales_tax": 60000,
+        "percentage_input_tax": 60000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -399,9 +399,9 @@
     },
     "BG_S20": {
         "abbr": "BG_S20",
-        "percentage_invoice": 2000,
-        "percentage_sales_tax": 2000,
-        "percentage_input_tax": 2000,
+        "percentage_invoice": 200000,
+        "percentage_sales_tax": 200000,
+        "percentage_input_tax": 200000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -422,9 +422,9 @@
     },
     "BG_S21": {
         "abbr": "BG_S21",
-        "percentage_invoice": 2100,
-        "percentage_sales_tax": 2100,
-        "percentage_input_tax": 2100,
+        "percentage_invoice": 210000,
+        "percentage_sales_tax": 210000,
+        "percentage_input_tax": 210000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -445,9 +445,9 @@
     },
     "BG_S10": {
         "abbr": "BG_S10",
-        "percentage_invoice": 1000,
-        "percentage_sales_tax": 1000,
-        "percentage_input_tax": 1000,
+        "percentage_invoice": 100000,
+        "percentage_sales_tax": 100000,
+        "percentage_input_tax": 100000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -468,9 +468,9 @@
     },
     "BG_S9": {
         "abbr": "BG_S9",
-        "percentage_invoice": 900,
-        "percentage_sales_tax": 900,
-        "percentage_input_tax": 900,
+        "percentage_invoice": 90000,
+        "percentage_sales_tax": 90000,
+        "percentage_input_tax": 90000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -514,9 +514,9 @@
     },
     "HR_S25": {
         "abbr": "HR_S25",
-        "percentage_invoice": 2500,
-        "percentage_sales_tax": 2500,
-        "percentage_input_tax": 2500,
+        "percentage_invoice": 250000,
+        "percentage_sales_tax": 250000,
+        "percentage_input_tax": 250000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -537,9 +537,9 @@
     },
     "HR_S13": {
         "abbr": "HR_S13",
-        "percentage_invoice": 1300,
-        "percentage_sales_tax": 1300,
-        "percentage_input_tax": 1300,
+        "percentage_invoice": 130000,
+        "percentage_sales_tax": 130000,
+        "percentage_input_tax": 130000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -560,9 +560,9 @@
     },
     "HR_S5": {
         "abbr": "HR_S5",
-        "percentage_invoice": 500,
-        "percentage_sales_tax": 500,
-        "percentage_input_tax": 500,
+        "percentage_invoice": 50000,
+        "percentage_sales_tax": 50000,
+        "percentage_input_tax": 50000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -606,9 +606,9 @@
     },
     "CY_S19": {
         "abbr": "CY_S19",
-        "percentage_invoice": 1900,
-        "percentage_sales_tax": 1900,
-        "percentage_input_tax": 1900,
+        "percentage_invoice": 190000,
+        "percentage_sales_tax": 190000,
+        "percentage_input_tax": 190000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -629,9 +629,9 @@
     },
     "CY_S9": {
         "abbr": "CY_S9",
-        "percentage_invoice": 900,
-        "percentage_sales_tax": 900,
-        "percentage_input_tax": 900,
+        "percentage_invoice": 90000,
+        "percentage_sales_tax": 90000,
+        "percentage_input_tax": 90000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -652,9 +652,9 @@
     },
     "CY_S5": {
         "abbr": "CY_S5",
-        "percentage_invoice": 500,
-        "percentage_sales_tax": 500,
-        "percentage_input_tax": 500,
+        "percentage_invoice": 50000,
+        "percentage_sales_tax": 50000,
+        "percentage_input_tax": 50000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -698,9 +698,9 @@
     },
     "CZ_S21": {
         "abbr": "CZ_S21",
-        "percentage_invoice": 2100,
-        "percentage_sales_tax": 2100,
-        "percentage_input_tax": 2100,
+        "percentage_invoice": 210000,
+        "percentage_sales_tax": 210000,
+        "percentage_input_tax": 210000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -721,9 +721,9 @@
     },
     "CZ_S15": {
         "abbr": "CZ_S15",
-        "percentage_invoice": 1500,
-        "percentage_sales_tax": 1500,
-        "percentage_input_tax": 1500,
+        "percentage_invoice": 150000,
+        "percentage_sales_tax": 150000,
+        "percentage_input_tax": 150000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -744,9 +744,9 @@
     },
     "CZ_S10": {
         "abbr": "CZ_S10",
-        "percentage_invoice": 1000,
-        "percentage_sales_tax": 1000,
-        "percentage_input_tax": 1000,
+        "percentage_invoice": 100000,
+        "percentage_sales_tax": 100000,
+        "percentage_input_tax": 100000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -790,9 +790,9 @@
     },
     "DK_S25": {
         "abbr": "DK_S25",
-        "percentage_invoice": 2500,
-        "percentage_sales_tax": 2500,
-        "percentage_input_tax": 2500,
+        "percentage_invoice": 250000,
+        "percentage_sales_tax": 250000,
+        "percentage_input_tax": 250000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -836,9 +836,9 @@
     },
     "EE_S20": {
         "abbr": "EE_S20",
-        "percentage_invoice": 2000,
-        "percentage_sales_tax": 2000,
-        "percentage_input_tax": 2000,
+        "percentage_invoice": 200000,
+        "percentage_sales_tax": 200000,
+        "percentage_input_tax": 200000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -859,9 +859,9 @@
     },
     "EE_S9": {
         "abbr": "EE_S9",
-        "percentage_invoice": 900,
-        "percentage_sales_tax": 900,
-        "percentage_input_tax": 900,
+        "percentage_invoice": 90000,
+        "percentage_sales_tax": 90000,
+        "percentage_input_tax": 90000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -905,9 +905,9 @@
     },
     "FI_S24": {
         "abbr": "FI_S24",
-        "percentage_invoice": 2400,
-        "percentage_sales_tax": 2400,
-        "percentage_input_tax": 2400,
+        "percentage_invoice": 240000,
+        "percentage_sales_tax": 240000,
+        "percentage_input_tax": 240000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -928,9 +928,9 @@
     },
     "FI_S14": {
         "abbr": "FI_S14",
-        "percentage_invoice": 1400,
-        "percentage_sales_tax": 1400,
-        "percentage_input_tax": 1400,
+        "percentage_invoice": 140000,
+        "percentage_sales_tax": 140000,
+        "percentage_input_tax": 140000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -951,9 +951,9 @@
     },
     "FI_S10": {
         "abbr": "FI_S10",
-        "percentage_invoice": 1000,
-        "percentage_sales_tax": 1000,
-        "percentage_input_tax": 1000,
+        "percentage_invoice": 100000,
+        "percentage_sales_tax": 100000,
+        "percentage_input_tax": 100000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -997,9 +997,9 @@
     },
     "FR_S20": {
         "abbr": "FR_S20",
-        "percentage_invoice": 2000,
-        "percentage_sales_tax": 2000,
-        "percentage_input_tax": 2000,
+        "percentage_invoice": 200000,
+        "percentage_sales_tax": 200000,
+        "percentage_input_tax": 200000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1020,9 +1020,9 @@
     },
     "FR_S10": {
         "abbr": "FR_S10",
-        "percentage_invoice": 1000,
-        "percentage_sales_tax": 1000,
-        "percentage_input_tax": 1000,
+        "percentage_invoice": 100000,
+        "percentage_sales_tax": 100000,
+        "percentage_input_tax": 100000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1043,9 +1043,9 @@
     },
     "FR_S5.5": {
         "abbr": "FR_S5.5",
-        "percentage_invoice": 550,
-        "percentage_sales_tax": 550,
-        "percentage_input_tax": 550,
+        "percentage_invoice": 55000,
+        "percentage_sales_tax": 55000,
+        "percentage_input_tax": 55000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1066,9 +1066,9 @@
     },
     "FR_S2.1": {
         "abbr": "FR_S2.1",
-        "percentage_invoice": 210,
-        "percentage_sales_tax": 210,
-        "percentage_input_tax": 210,
+        "percentage_invoice": 21000,
+        "percentage_sales_tax": 21000,
+        "percentage_input_tax": 21000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1112,9 +1112,9 @@
     },
     "DE_S19": {
         "abbr": "DE_S19",
-        "percentage_invoice": 1900,
-        "percentage_sales_tax": 1900,
-        "percentage_input_tax": 1900,
+        "percentage_invoice": 190000,
+        "percentage_sales_tax": 190000,
+        "percentage_input_tax": 190000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1135,9 +1135,9 @@
     },
     "DE_S7": {
         "abbr": "DE_S7",
-        "percentage_invoice": 700,
-        "percentage_sales_tax": 700,
-        "percentage_input_tax": 700,
+        "percentage_invoice": 70000,
+        "percentage_sales_tax": 70000,
+        "percentage_input_tax": 70000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1181,9 +1181,9 @@
     },
     "GR_S24": {
         "abbr": "GR_S24",
-        "percentage_invoice": 2400,
-        "percentage_sales_tax": 2400,
-        "percentage_input_tax": 2400,
+        "percentage_invoice": 240000,
+        "percentage_sales_tax": 240000,
+        "percentage_input_tax": 240000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1204,9 +1204,9 @@
     },
     "GR_S13": {
         "abbr": "GR_S13",
-        "percentage_invoice": 1300,
-        "percentage_sales_tax": 1300,
-        "percentage_input_tax": 1300,
+        "percentage_invoice": 130000,
+        "percentage_sales_tax": 130000,
+        "percentage_input_tax": 130000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1227,9 +1227,9 @@
     },
     "GR_S6": {
         "abbr": "GR_S6",
-        "percentage_invoice": 600,
-        "percentage_sales_tax": 600,
-        "percentage_input_tax": 600,
+        "percentage_invoice": 60000,
+        "percentage_sales_tax": 60000,
+        "percentage_input_tax": 60000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1273,9 +1273,9 @@
     },
     "HU_S27": {
         "abbr": "HU_S27",
-        "percentage_invoice": 2700,
-        "percentage_sales_tax": 2700,
-        "percentage_input_tax": 2700,
+        "percentage_invoice": 270000,
+        "percentage_sales_tax": 270000,
+        "percentage_input_tax": 270000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1296,9 +1296,9 @@
     },
     "HU_S18": {
         "abbr": "HU_S18",
-        "percentage_invoice": 1800,
-        "percentage_sales_tax": 1800,
-        "percentage_input_tax": 1800,
+        "percentage_invoice": 180000,
+        "percentage_sales_tax": 180000,
+        "percentage_input_tax": 180000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1319,9 +1319,9 @@
     },
     "HU_S5": {
         "abbr": "HU_S5",
-        "percentage_invoice": 500,
-        "percentage_sales_tax": 500,
-        "percentage_input_tax": 500,
+        "percentage_invoice": 50000,
+        "percentage_sales_tax": 50000,
+        "percentage_input_tax": 50000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1365,9 +1365,9 @@
     },
     "IE_S23": {
         "abbr": "IE_S23",
-        "percentage_invoice": 2300,
-        "percentage_sales_tax": 2300,
-        "percentage_input_tax": 2300,
+        "percentage_invoice": 230000,
+        "percentage_sales_tax": 230000,
+        "percentage_input_tax": 230000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1388,9 +1388,9 @@
     },
     "IE_S13.5": {
         "abbr": "IE_S13.5",
-        "percentage_invoice": 1350,
-        "percentage_sales_tax": 1350,
-        "percentage_input_tax": 1350,
+        "percentage_invoice": 135000,
+        "percentage_sales_tax": 135000,
+        "percentage_input_tax": 135000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1411,9 +1411,9 @@
     },
     "IE_S9": {
         "abbr": "IE_S9",
-        "percentage_invoice": 900,
-        "percentage_sales_tax": 900,
-        "percentage_input_tax": 900,
+        "percentage_invoice": 90000,
+        "percentage_sales_tax": 90000,
+        "percentage_input_tax": 90000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1434,9 +1434,9 @@
     },
     "IE_S4.8": {
         "abbr": "IE_S4.8",
-        "percentage_invoice": 480,
-        "percentage_sales_tax": 480,
-        "percentage_input_tax": 480,
+        "percentage_invoice": 48000,
+        "percentage_sales_tax": 48000,
+        "percentage_input_tax": 48000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1480,9 +1480,9 @@
     },
     "IT_S22": {
         "abbr": "IT_S22",
-        "percentage_invoice": 2200,
-        "percentage_sales_tax": 2200,
-        "percentage_input_tax": 2200,
+        "percentage_invoice": 220000,
+        "percentage_sales_tax": 220000,
+        "percentage_input_tax": 220000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1503,9 +1503,9 @@
     },
     "IT_S10": {
         "abbr": "IT_S10",
-        "percentage_invoice": 1000,
-        "percentage_sales_tax": 1000,
-        "percentage_input_tax": 1000,
+        "percentage_invoice": 100000,
+        "percentage_sales_tax": 100000,
+        "percentage_input_tax": 100000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1526,9 +1526,9 @@
     },
     "IT_S5": {
         "abbr": "IT_S5",
-        "percentage_invoice": 500,
-        "percentage_sales_tax": 500,
-        "percentage_input_tax": 500,
+        "percentage_invoice": 50000,
+        "percentage_sales_tax": 50000,
+        "percentage_input_tax": 50000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1549,9 +1549,9 @@
     },
     "IT_S4": {
         "abbr": "IT_S4",
-        "percentage_invoice": 400,
-        "percentage_sales_tax": 400,
-        "percentage_input_tax": 400,
+        "percentage_invoice": 40000,
+        "percentage_sales_tax": 40000,
+        "percentage_input_tax": 40000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1595,9 +1595,9 @@
     },
     "LV_S21": {
         "abbr": "LV_S21",
-        "percentage_invoice": 2100,
-        "percentage_sales_tax": 2100,
-        "percentage_input_tax": 2100,
+        "percentage_invoice": 210000,
+        "percentage_sales_tax": 210000,
+        "percentage_input_tax": 210000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1618,9 +1618,9 @@
     },
     "LV_S12": {
         "abbr": "LV_S12",
-        "percentage_invoice": 1200,
-        "percentage_sales_tax": 1200,
-        "percentage_input_tax": 1200,
+        "percentage_invoice": 120000,
+        "percentage_sales_tax": 120000,
+        "percentage_input_tax": 120000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1641,9 +1641,9 @@
     },
     "LV_S5": {
         "abbr": "LV_S5",
-        "percentage_invoice": 500,
-        "percentage_sales_tax": 500,
-        "percentage_input_tax": 500,
+        "percentage_invoice": 50000,
+        "percentage_sales_tax": 50000,
+        "percentage_input_tax": 50000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1687,9 +1687,9 @@
     },
     "LT_S21": {
         "abbr": "LT_S21",
-        "percentage_invoice": 2100,
-        "percentage_sales_tax": 2100,
-        "percentage_input_tax": 2100,
+        "percentage_invoice": 210000,
+        "percentage_sales_tax": 210000,
+        "percentage_input_tax": 210000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1710,9 +1710,9 @@
     },
     "LT_S9": {
         "abbr": "LT_S9",
-        "percentage_invoice": 900,
-        "percentage_sales_tax": 900,
-        "percentage_input_tax": 900,
+        "percentage_invoice": 90000,
+        "percentage_sales_tax": 90000,
+        "percentage_input_tax": 90000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1733,9 +1733,9 @@
     },
     "LT_S5": {
         "abbr": "LT_S5",
-        "percentage_invoice": 500,
-        "percentage_sales_tax": 500,
-        "percentage_input_tax": 500,
+        "percentage_invoice": 50000,
+        "percentage_sales_tax": 50000,
+        "percentage_input_tax": 50000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1779,9 +1779,9 @@
     },
     "LU_S17": {
         "abbr": "LU_S17",
-        "percentage_invoice": 1700,
-        "percentage_sales_tax": 1700,
-        "percentage_input_tax": 1700,
+        "percentage_invoice": 170000,
+        "percentage_sales_tax": 170000,
+        "percentage_input_tax": 170000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1802,9 +1802,9 @@
     },
     "LU_S14": {
         "abbr": "LU_S14",
-        "percentage_invoice": 1400,
-        "percentage_sales_tax": 1400,
-        "percentage_input_tax": 1400,
+        "percentage_invoice": 140000,
+        "percentage_sales_tax": 140000,
+        "percentage_input_tax": 140000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1825,9 +1825,9 @@
     },
     "LU_S8": {
         "abbr": "LU_S8",
-        "percentage_invoice": 800,
-        "percentage_sales_tax": 800,
-        "percentage_input_tax": 800,
+        "percentage_invoice": 80000,
+        "percentage_sales_tax": 80000,
+        "percentage_input_tax": 80000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1848,9 +1848,9 @@
     },
     "LU_S3": {
         "abbr": "LU_S3",
-        "percentage_invoice": 300,
-        "percentage_sales_tax": 300,
-        "percentage_input_tax": 300,
+        "percentage_invoice": 30000,
+        "percentage_sales_tax": 30000,
+        "percentage_input_tax": 30000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1894,9 +1894,9 @@
     },
     "MT_S18": {
         "abbr": "MT_S18",
-        "percentage_invoice": 1800,
-        "percentage_sales_tax": 1800,
-        "percentage_input_tax": 1800,
+        "percentage_invoice": 180000,
+        "percentage_sales_tax": 180000,
+        "percentage_input_tax": 180000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1917,9 +1917,9 @@
     },
     "MT_S7": {
         "abbr": "MT_S7",
-        "percentage_invoice": 700,
-        "percentage_sales_tax": 700,
-        "percentage_input_tax": 700,
+        "percentage_invoice": 70000,
+        "percentage_sales_tax": 70000,
+        "percentage_input_tax": 70000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1940,9 +1940,9 @@
     },
     "MT_S5": {
         "abbr": "MT_S5",
-        "percentage_invoice": 500,
-        "percentage_sales_tax": 500,
-        "percentage_input_tax": 500,
+        "percentage_invoice": 50000,
+        "percentage_sales_tax": 50000,
+        "percentage_input_tax": 50000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -1986,9 +1986,9 @@
     },
     "NL_S21": {
         "abbr": "NL_S21",
-        "percentage_invoice": 2100,
-        "percentage_sales_tax": 2100,
-        "percentage_input_tax": 2100,
+        "percentage_invoice": 210000,
+        "percentage_sales_tax": 210000,
+        "percentage_input_tax": 210000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2009,9 +2009,9 @@
     },
     "NL_S9": {
         "abbr": "NL_S9",
-        "percentage_invoice": 900,
-        "percentage_sales_tax": 900,
-        "percentage_input_tax": 900,
+        "percentage_invoice": 90000,
+        "percentage_sales_tax": 90000,
+        "percentage_input_tax": 90000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2055,9 +2055,9 @@
     },
     "PL_S23": {
         "abbr": "PL_S23",
-        "percentage_invoice": 2300,
-        "percentage_sales_tax": 2300,
-        "percentage_input_tax": 2300,
+        "percentage_invoice": 230000,
+        "percentage_sales_tax": 230000,
+        "percentage_input_tax": 230000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2078,9 +2078,9 @@
     },
     "PL_S8": {
         "abbr": "PL_S8",
-        "percentage_invoice": 800,
-        "percentage_sales_tax": 800,
-        "percentage_input_tax": 800,
+        "percentage_invoice": 80000,
+        "percentage_sales_tax": 80000,
+        "percentage_input_tax": 80000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2101,9 +2101,9 @@
     },
     "PL_S5": {
         "abbr": "PL_S5",
-        "percentage_invoice": 500,
-        "percentage_sales_tax": 500,
-        "percentage_input_tax": 500,
+        "percentage_invoice": 50000,
+        "percentage_sales_tax": 50000,
+        "percentage_input_tax": 50000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2147,9 +2147,9 @@
     },
     "PT_S23": {
         "abbr": "PT_S23",
-        "percentage_invoice": 2300,
-        "percentage_sales_tax": 2300,
-        "percentage_input_tax": 2300,
+        "percentage_invoice": 230000,
+        "percentage_sales_tax": 230000,
+        "percentage_input_tax": 230000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2170,9 +2170,9 @@
     },
     "PT_S13": {
         "abbr": "PT_S13",
-        "percentage_invoice": 1300,
-        "percentage_sales_tax": 1300,
-        "percentage_input_tax": 1300,
+        "percentage_invoice": 130000,
+        "percentage_sales_tax": 130000,
+        "percentage_input_tax": 130000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2193,9 +2193,9 @@
     },
     "PT_S6": {
         "abbr": "PT_S6",
-        "percentage_invoice": 600,
-        "percentage_sales_tax": 600,
-        "percentage_input_tax": 600,
+        "percentage_invoice": 60000,
+        "percentage_sales_tax": 60000,
+        "percentage_input_tax": 60000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2239,9 +2239,9 @@
     },
     "RO_S19": {
         "abbr": "RO_S19",
-        "percentage_invoice": 1900,
-        "percentage_sales_tax": 1900,
-        "percentage_input_tax": 1900,
+        "percentage_invoice": 190000,
+        "percentage_sales_tax": 190000,
+        "percentage_input_tax": 190000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2262,9 +2262,9 @@
     },
     "RO_S9": {
         "abbr": "RO_S9",
-        "percentage_invoice": 900,
-        "percentage_sales_tax": 900,
-        "percentage_input_tax": 900,
+        "percentage_invoice": 90000,
+        "percentage_sales_tax": 90000,
+        "percentage_input_tax": 90000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2285,9 +2285,9 @@
     },
     "RO_S5": {
         "abbr": "RO_S5",
-        "percentage_invoice": 500,
-        "percentage_sales_tax": 500,
-        "percentage_input_tax": 500,
+        "percentage_invoice": 50000,
+        "percentage_sales_tax": 50000,
+        "percentage_input_tax": 50000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2331,9 +2331,9 @@
     },
     "SK_S20": {
         "abbr": "SK_S20",
-        "percentage_invoice": 2000,
-        "percentage_sales_tax": 2000,
-        "percentage_input_tax": 2000,
+        "percentage_invoice": 200000,
+        "percentage_sales_tax": 200000,
+        "percentage_input_tax": 200000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2354,9 +2354,9 @@
     },
     "SK_S10": {
         "abbr": "SK_S10",
-        "percentage_invoice": 1000,
-        "percentage_sales_tax": 1000,
-        "percentage_input_tax": 1000,
+        "percentage_invoice": 100000,
+        "percentage_sales_tax": 100000,
+        "percentage_input_tax": 100000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2400,9 +2400,9 @@
     },
     "SI_S22": {
         "abbr": "SI_S22",
-        "percentage_invoice": 2200,
-        "percentage_sales_tax": 2200,
-        "percentage_input_tax": 2200,
+        "percentage_invoice": 220000,
+        "percentage_sales_tax": 220000,
+        "percentage_input_tax": 220000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2423,9 +2423,9 @@
     },
     "SI_S9.5": {
         "abbr": "SI_S9.5",
-        "percentage_invoice": 950,
-        "percentage_sales_tax": 950,
-        "percentage_input_tax": 950,
+        "percentage_invoice": 95000,
+        "percentage_sales_tax": 95000,
+        "percentage_input_tax": 95000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2446,9 +2446,9 @@
     },
     "SI_S5": {
         "abbr": "SI_S5",
-        "percentage_invoice": 500,
-        "percentage_sales_tax": 500,
-        "percentage_input_tax": 500,
+        "percentage_invoice": 50000,
+        "percentage_sales_tax": 50000,
+        "percentage_input_tax": 50000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2492,9 +2492,9 @@
     },
     "ES_S21": {
         "abbr": "ES_S21",
-        "percentage_invoice": 2100,
-        "percentage_sales_tax": 2100,
-        "percentage_input_tax": 2100,
+        "percentage_invoice": 210000,
+        "percentage_sales_tax": 210000,
+        "percentage_input_tax": 210000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2515,9 +2515,9 @@
     },
     "ES_S10": {
         "abbr": "ES_S10",
-        "percentage_invoice": 1000,
-        "percentage_sales_tax": 1000,
-        "percentage_input_tax": 1000,
+        "percentage_invoice": 100000,
+        "percentage_sales_tax": 100000,
+        "percentage_input_tax": 100000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2538,9 +2538,9 @@
     },
     "ES_S4": {
         "abbr": "ES_S4",
-        "percentage_invoice": 400,
-        "percentage_sales_tax": 400,
-        "percentage_input_tax": 400,
+        "percentage_invoice": 40000,
+        "percentage_sales_tax": 40000,
+        "percentage_input_tax": 40000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2584,9 +2584,9 @@
     },
     "SE_S25": {
         "abbr": "SE_S25",
-        "percentage_invoice": 2500,
-        "percentage_sales_tax": 2500,
-        "percentage_input_tax": 2500,
+        "percentage_invoice": 250000,
+        "percentage_sales_tax": 250000,
+        "percentage_input_tax": 250000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2607,9 +2607,9 @@
     },
     "SE_S12": {
         "abbr": "SE_S12",
-        "percentage_invoice": 1200,
-        "percentage_sales_tax": 1200,
-        "percentage_input_tax": 1200,
+        "percentage_invoice": 120000,
+        "percentage_sales_tax": 120000,
+        "percentage_input_tax": 120000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2630,9 +2630,9 @@
     },
     "SE_S6": {
         "abbr": "SE_S6",
-        "percentage_invoice": 600,
-        "percentage_sales_tax": 600,
-        "percentage_input_tax": 600,
+        "percentage_invoice": 60000,
+        "percentage_sales_tax": 60000,
+        "percentage_input_tax": 60000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2677,9 +2677,9 @@
     },
     "GB_S20": {
         "abbr": "GB_S20",
-        "percentage_invoice": 2000,
-        "percentage_sales_tax": 2000,
-        "percentage_input_tax": 2000,
+        "percentage_invoice": 200000,
+        "percentage_sales_tax": 200000,
+        "percentage_input_tax": 200000,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -2700,9 +2700,9 @@
     },
     "GB_S5": {
         "abbr": "GB_S5",
-        "percentage_invoice": 500,
-        "percentage_sales_tax": 500,
-        "percentage_input_tax": 500,
+        "percentage_invoice": 50000,
+        "percentage_sales_tax": 50000,
+        "percentage_input_tax": 50000,
         "tax_report": {
             "base": null,
             "amount": 43

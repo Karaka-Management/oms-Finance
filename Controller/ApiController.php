@@ -18,6 +18,7 @@ use Modules\Finance\Models\TaxCode;
 use Modules\Finance\Models\TaxCodeL11n;
 use Modules\Finance\Models\TaxCodeL11nMapper;
 use Modules\Finance\Models\TaxCodeMapper;
+use phpOMS\Localization\ISO639x1Enum;
 use phpOMS\Message\Http\RequestStatusCode;
 use phpOMS\Message\RequestAbstract;
 use phpOMS\Message\ResponseAbstract;
@@ -98,10 +99,10 @@ final class ApiController extends Controller
         $code->percentageInput   = $request->getDataInt('percentage_input_tax') ?? 0;
 
         if ($request->hasData('title')) {
-            $code->l11n->title = $request->getDataString('title') ?? '';
-            $code->l11n->short = $request->getDataString('short') ?? '';
-            $code->l11n->long  = $request->getDataString('long') ?? '';
-            $code->l11n->setLanguage($request->getDataString('language') ?? 'en');
+            $code->l11n->title    = $request->getDataString('title') ?? '';
+            $code->l11n->short    = $request->getDataString('short') ?? '';
+            $code->l11n->long     = $request->getDataString('long') ?? '';
+            $code->l11n->language = ISO639x1Enum::tryFromValue($request->getDataString('language')) ?? 'en';
         }
 
         return $code;
@@ -166,12 +167,12 @@ final class ApiController extends Controller
      */
     private function createTaxCodeL11nFromRequest(RequestAbstract $request) : TaxCodeL11n
     {
-        $l11n        = new TaxCodeL11n();
-        $l11n->title = $request->getDataString('title') ?? '';
-        $l11n->short = $request->getDataString('short') ?? '';
-        $l11n->long  = $request->getDataString('long') ?? '';
-        $l11n->code  = $request->getDataInt('code') ?? 0;
-        $l11n->setLanguage($request->getDataString('language') ?? $request->header->l11n->language);
+        $l11n           = new TaxCodeL11n();
+        $l11n->title    = $request->getDataString('title') ?? '';
+        $l11n->short    = $request->getDataString('short') ?? '';
+        $l11n->long     = $request->getDataString('long') ?? '';
+        $l11n->code     = $request->getDataInt('code') ?? 0;
+        $l11n->language = ISO639x1Enum::tryFromValue($request->getDataString('language')) ?? $request->header->l11n->language;
 
         return $l11n;
     }
@@ -342,11 +343,11 @@ final class ApiController extends Controller
      */
     public function updateTaxCodeL11nFromRequest(RequestAbstract $request, TaxCodeL11n $new) : TaxCodeL11n
     {
-        $new->title = $request->getDataString('title') ?? $new->title;
-        $new->short = $request->getDataString('short') ?? $new->short;
-        $new->long  = $request->getDataString('long') ?? $new->long;
-        $new->code  = $request->getDataInt('code') ?? $new->code;
-        $new->setLanguage($request->getDataString('language') ?? $new->language);
+        $new->title    = $request->getDataString('title') ?? $new->title;
+        $new->short    = $request->getDataString('short') ?? $new->short;
+        $new->long     = $request->getDataString('long') ?? $new->long;
+        $new->code     = $request->getDataInt('code') ?? $new->code;
+        $new->language = ISO639x1Enum::tryFromValue($request->getDataString('language')) ?? $new->language;
 
         return $new;
     }

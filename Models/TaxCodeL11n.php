@@ -115,11 +115,11 @@ class TaxCodeL11n implements \JsonSerializable
     public function toArray() : array
     {
         return [
-            'id'             => $this->id,
-            'title'          => $this->title,
-            'short'          => $this->short,
-            'long'           => $this->long,
-            'language'       => $this->language,
+            'id'       => $this->id,
+            'title'    => $this->title,
+            'short'    => $this->short,
+            'long'     => $this->long,
+            'language' => $this->language,
         ];
     }
 

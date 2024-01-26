@@ -18,7 +18,7 @@ use phpOMS\Account\PermissionType;
 use phpOMS\Router\RouteVerb;
 
 return [
-    '^.*/finance/analysis(\?.*|$)$' => [
+    '^.*/finance/analysis(\?.*$|$)' => [
         [
             'dest'       => '\Modules\Finance\Controller\BackendController:viewDashboard',
             'verb'       => RouteVerb::GET,
