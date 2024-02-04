@@ -285,8 +285,6 @@ final class ApiController extends Controller
      *
      * @return array<string, bool>
      *
-     * @todo Implement API validation function
-     *
      * @since 1.0.0
      */
     private function validateTaxCodeDelete(RequestAbstract $request) : array
@@ -407,8 +405,6 @@ final class ApiController extends Controller
      * @param RequestAbstract $request Request
      *
      * @return array<string, bool>
-     *
-     * @todo Implement API validation function
      *
      * @since 1.0.0
      */
