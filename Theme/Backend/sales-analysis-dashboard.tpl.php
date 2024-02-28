@@ -13,6 +13,7 @@
 declare(strict_types=1);
 
 use phpOMS\Localization\Money;
+use phpOMS\Stdlib\Base\FloatInt;
 
 /**
  * @var \phpOMS\Views\View $this
@@ -58,7 +59,7 @@ echo $this->data['nav']->render();
     </div>
 
     <div class="col-xs-12 col-lg-4">
-        <section class="portlet highlight-2">
+        <section class="portlet hl-2">
             <div class="portlet-head">Actual</div>
             <div class="portlet-body">
                 <div class="form-group">
@@ -85,7 +86,7 @@ echo $this->data['nav']->render();
     </div>
 
     <div class="col-xs-12 col-lg-4">
-        <section class="portlet highlight-3">
+        <section class="portlet hl-3">
             <div class="portlet-head">Budget</div>
             <div class="portlet-body">
                 <div class="form-group">
@@ -223,7 +224,7 @@ echo $this->data['nav']->render();
                             ?>
                                 <tr>
                                     <td><?= $values['month'] . '/' . \substr((string) $values['year'], -2); ?>
-                                    <td><?= (new Money(((int) $values['net_sales']) / 10000))->getCurrency(); ?>
+                                    <td><?= (new Money(((int) $values['net_sales']) / FloatInt::DIVISOR))->getCurrency(); ?>
                                     <td><?= ((int) $values['customers']); ?>
                             <?php endforeach; ?>
                                 <tr>
@@ -343,7 +344,7 @@ echo $this->data['nav']->render();
                             ?>
                                 <tr>
                                     <td><?= (string) $values['year']; ?>
-                                    <td><?= (new Money(((int) $values['net_sales']) / 10000))->getCurrency(); ?>
+                                    <td><?= (new Money(((int) $values['net_sales']) / FloatInt::DIVISOR))->getCurrency(); ?>
                                     <td><?= ((int) $values['customers']); ?>
                             <?php endforeach; ?>
                     </table>
