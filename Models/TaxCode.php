@@ -40,6 +40,14 @@ class TaxCode implements \JsonSerializable
 
     public int $percentageInput = 0;
 
+    // Tax accounts can be defined in:
+    //      1. Account (gross postings are automatically split)
+    //      2. Tax code
+    //      3. Tax combination
+    public ?int $taxAccount1 = null;
+
+    public ?int $taxAccount2 = null;
+
     /**
      * Localization.
      *
