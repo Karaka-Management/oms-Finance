@@ -29,6 +29,18 @@
                 "name": "tax_code_input",
                 "type": "INT(11)",
                 "null": false
+            },
+            "tax_code_tax1_account": {
+                "name": "tax_code_tax1_account",
+                "type": "VARCHAR(10)",
+                "null": false,
+                "default": null
+            },
+            "tax_code_tax2_account": {
+                "name": "tax_code_tax2_account",
+                "type": "VARCHAR(10)",
+                "null": false,
+                "default": null
             }
         }
     },

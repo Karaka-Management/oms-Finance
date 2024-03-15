@@ -73,6 +73,8 @@
         "percentage_invoice": 70000,
         "percentage_sales_tax": 70000,
         "percentage_input_tax": 70000,
+        "tax1_account": "1571",
+        "tax2_account": null,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -92,6 +94,8 @@
         "percentage_invoice": 190000,
         "percentage_sales_tax": 190000,
         "percentage_input_tax": 190000,
+        "tax1_account": "1576",
+        "tax2_account": null,
         "tax_report": {
             "base": null,
             "amount": 43
@@ -130,6 +134,8 @@
         "percentage_invoice": 70000,
         "percentage_sales_tax": 70000,
         "percentage_input_tax": 70000,
+        "tax1_account": null,
+        "tax2_account": "1771",
         "tax_report": {
             "base": null,
             "amount": 43
@@ -149,6 +155,8 @@
         "percentage_invoice": 190000,
         "percentage_sales_tax": 190000,
         "percentage_input_tax": 190000,
+        "tax1_account": null,
+        "tax2_account": "1776",
         "tax_report": {
             "base": null,
             "amount": 43
@@ -168,6 +176,8 @@
         "percentage_invoice": 0,
         "percentage_sales_tax": 190000,
         "percentage_input_tax": 190000,
+        "tax1_account": "1574",
+        "tax2_account": "1774",
         "tax_report": {
             "base": null,
             "amount": 43

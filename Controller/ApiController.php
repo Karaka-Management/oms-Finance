@@ -97,6 +97,8 @@ final class ApiController extends Controller
         $code->percentageInvoice = $request->getDataInt('percentage_invoice') ?? 0;
         $code->percentageSales   = $request->getDataInt('percentage_sales_tax') ?? 0;
         $code->percentageInput   = $request->getDataInt('percentage_input_tax') ?? 0;
+        $code->taxAccount1       = $request->getDataString('tax1');
+        $code->taxAccount2       = $request->getDataString('tax2');
 
         if ($request->hasData('title')) {
             $code->l11n->title    = $request->getDataString('title') ?? '';
