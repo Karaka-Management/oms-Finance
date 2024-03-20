@@ -22,7 +22,7 @@ use Modules\Finance\Models\NullTaxCodeL11n;
 final class NullTaxCodeL11nTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @covers Modules\Finance\Models\NullTaxCodeL11n
+     * @covers \Modules\Finance\Models\NullTaxCodeL11n
      * @group module
      */
     public function testNull() : void
@@ -31,7 +31,7 @@ final class NullTaxCodeL11nTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @covers Modules\Finance\Models\NullTaxCodeL11n
+     * @covers \Modules\Finance\Models\NullTaxCodeL11n
      * @group module
      */
     public function testId() : void
@@ -41,7 +41,7 @@ final class NullTaxCodeL11nTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @covers Modules\Finance\Models\NullTaxCodeL11n
+     * @covers \Modules\Finance\Models\NullTaxCodeL11n
      * @group module
      */
     public function testJsonSerialize() : void
