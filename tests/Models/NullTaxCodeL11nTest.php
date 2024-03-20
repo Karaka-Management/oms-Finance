@@ -19,31 +19,23 @@ use Modules\Finance\Models\NullTaxCodeL11n;
 /**
  * @internal
  */
+#[\PHPUnit\Framework\Attributes\CoversClass(\Modules\Finance\Models\NullTaxCodeL11n::class)]
 final class NullTaxCodeL11nTest extends \PHPUnit\Framework\TestCase
 {
-    /**
-     * @covers \Modules\Finance\Models\NullTaxCodeL11n
-     * @group module
-     */
+    #[\PHPUnit\Framework\Attributes\Group('module')]
     public function testNull() : void
     {
         self::assertInstanceOf('\Modules\Finance\Models\TaxCodeL11n', new NullTaxCodeL11n());
     }
 
-    /**
-     * @covers \Modules\Finance\Models\NullTaxCodeL11n
-     * @group module
-     */
+    #[\PHPUnit\Framework\Attributes\Group('module')]
     public function testId() : void
     {
         $null = new NullTaxCodeL11n(2);
         self::assertEquals(2, $null->id);
     }
 
-    /**
-     * @covers \Modules\Finance\Models\NullTaxCodeL11n
-     * @group module
-     */
+    #[\PHPUnit\Framework\Attributes\Group('module')]
     public function testJsonSerialize() : void
     {
         $null = new NullTaxCodeL11n(2);
