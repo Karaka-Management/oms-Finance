@@ -102,5 +102,10 @@ return ['Finance' => [
     'Trend'                => 'Trend',
     'Turnover'             => 'Turnover',
     'Type'                 => 'Type',
-    'ZipCode'              => 'ZipCode',
+    'ZipCode'              => 'Zip Code',
+    'TaxCodes'              => 'Tax Codes',
+    'TaxCode'              => 'Tax Code',
+    'Purchase'              => 'Purchase',
+    'Tax1Account'              => 'Tax Account 1',
+    'Tax2Account'              => 'Tax Account 2',
 ]];

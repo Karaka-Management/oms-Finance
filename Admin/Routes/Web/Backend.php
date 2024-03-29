@@ -51,26 +51,4 @@ return [
             ],
         ],
     ],
-    '^.*/finance/tax/combination/list(\?.*$|$)' => [
-        [
-            'dest'       => '\Modules\Finance\Controller\BackendController:viewCombinationList',
-            'verb'       => RouteVerb::GET,
-            'permission' => [
-                'module' => BackendController::NAME,
-                'type'   => PermissionType::CREATE,
-                'state'  => PermissionCategory::TAX,
-            ],
-        ],
-    ],
-    '^.*/finance/tax/combination/create(\?.*$|$)' => [
-        [
-            'dest'       => '\Modules\Finance\Controller\BackendController:viewCombinationCreate',
-            'verb'       => RouteVerb::GET,
-            'permission' => [
-                'module' => BackendController::NAME,
-                'type'   => PermissionType::CREATE,
-                'state'  => PermissionCategory::TAX,
-            ],
-        ],
-    ],
 ];

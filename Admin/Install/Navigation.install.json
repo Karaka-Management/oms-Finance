@@ -58,52 +58,6 @@
                         "children": []
                     }
                 ]
-            },
-            {
-                "id": 1008103001,
-                "pid": "/",
-                "type": 2,
-                "subtype": 1,
-                "name": "TaxCombinations",
-                "uri": "{/base}/finance/tax/combination/list?{?}",
-                "target": "self",
-                "icon": null,
-                "order": 2,
-                "from": "Finance",
-                "permission": { "permission": 2, "category": null, "element": null },
-                "parent": 1008101001,
-                "children": [
-                    {
-                        "id": 1008103002,
-                        "pid": "/finance/tax/combination",
-                        "type": 3,
-                        "subtype": 1,
-                        "name": "List",
-                        "uri": "{/base}/finance/tax/combination/list?{?}",
-                        "target": "self",
-                        "icon": null,
-                        "order": 1,
-                        "from": "Finance",
-                        "permission": { "permission": 2, "category": null, "element": null },
-                        "parent": 1008103001,
-                        "children": []
-                    },
-                    {
-                        "id": 1008103003,
-                        "pid": "/finance/tax/combination",
-                        "type": 3,
-                        "subtype": 1,
-                        "name": "Create",
-                        "uri": "{/base}/finance/tax/combination/create?{?}",
-                        "target": "self",
-                        "icon": null,
-                        "order": 5,
-                        "from": "Finance",
-                        "permission": { "permission": 2, "category": null, "element": null },
-                        "parent": 1008103001,
-                        "children": []
-                    }
-                ]
             }
         ]
     }

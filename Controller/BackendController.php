@@ -14,6 +14,7 @@ declare(strict_types=1);
 
 namespace Modules\Finance\Controller;
 
+use Modules\Finance\Models\TaxCodeMapper;
 use phpOMS\Asset\AssetType;
 use phpOMS\Contract\RenderableInterface;
 use phpOMS\Message\RequestAbstract;
@@ -42,42 +43,37 @@ final class BackendController extends Controller
      *
      * @since 1.0.0
      */
-    public function viewDashboard(RequestAbstract $request, ResponseAbstract $response, array $data = []) : RenderableInterface
+    public function viewTaxList(RequestAbstract $request, ResponseAbstract $response, array $data = []) : RenderableInterface
     {
-        $head  = $response->data['Content']->head;
-        $nonce = $this->app->appSettings->getOption('script-nonce');
-
-        $head->addAsset(AssetType::CSS, 'Resources/chartjs/chart.css?v=' . $this->app->version);
-        $head->addAsset(AssetType::JSLATE, 'Resources/chartjs/chart.js?v=' . $this->app->version, ['nonce' => $nonce]);
-        $head->addAsset(AssetType::JSLATE, 'Modules/ClientManagement/Controller.js?v=' . self::VERSION, ['nonce' => $nonce, 'type' => 'module']);
-
         $view = new View($this->app->l11nManager, $request, $response);
-        $view->setTemplate('/Modules/Sales/Theme/Backend/sales-analysis-dashboard');
-        $view->data['nav'] = $this->app->moduleManager->get('Navigation')->createNavigationMid(1001602001, $request, $response);
+        $view->setTemplate('/Modules/Finance/Theme/Backend/finance-taxcode-list');
+        $view->data['nav'] = $this->app->moduleManager->get('Navigation')->createNavigationMid(1008102001, $request, $response);
 
-        /////
-        $monthlySalesCustomer = [];
-        for ($i = 1; $i < 13; ++$i) {
-            $monthlySalesCustomer[] = [
-                'net_sales' => $sales = \mt_rand(1200000000, 2000000000),
-                'customers' => \mt_rand(200, 400),
-                'year'      => 2020,
-                'month'     => $i,
-            ];
-        }
+        $view->data['taxcode'] = TaxCodeMapper::getAll()
+            ->executeGetArray();
 
-        $view->data['monthlySalesCustomer'] = $monthlySalesCustomer;
+        return $view;
+    }
 
-        $annualSalesCustomer = [];
-        for ($i = 1; $i < 11; ++$i) {
-            $annualSalesCustomer[] = [
-                'net_sales' => $sales = \mt_rand(1200000000, 2000000000) * 12,
-                'customers' => \mt_rand(200, 400) * 6,
-                'year'      => 2020 - 10 + $i,
-            ];
-        }
+    /**
+     * Method which shows the sales dashboard
+     *
+     * @param RequestAbstract  $request  Request
+     * @param ResponseAbstract $response Response
+     * @param array            $data     Generic data
+     *
+     * @return RenderableInterface Response can be rendered
+     *
+     * @since 1.0.0
+     */
+    public function viewTaxView(RequestAbstract $request, ResponseAbstract $response, array $data = []) : RenderableInterface
+    {
+        $view = new View($this->app->l11nManager, $request, $response);
+        $view->setTemplate('/Modules/Finance/Theme/Backend/finance-taxcode-view');
+        $view->data['nav'] = $this->app->moduleManager->get('Navigation')->createNavigationMid(1008102001, $request, $response);
 
-        $view->data['annualSalesCustomer'] = $annualSalesCustomer;
+        $view->data['taxcode'] = TaxCodeMapper::getAll()
+            ->executeGetArray();
 
         return $view;
     }

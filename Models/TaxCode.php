@@ -34,9 +34,10 @@ class TaxCode implements \JsonSerializable
 
     public string $abbr = '';
 
+    /** @todo Turn into FloatInt */
     public int $percentageInvoice = 0;
 
-    public int $percentageSales = 0;
+    public int $percentageOutput = 0;
 
     public int $percentageInput = 0;
 

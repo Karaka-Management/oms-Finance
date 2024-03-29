@@ -95,7 +95,7 @@ final class ApiController extends Controller
         $code                    = new TaxCode();
         $code->abbr              = $request->getDataString('abbr') ?? '';
         $code->percentageInvoice = $request->getDataInt('percentage_invoice') ?? 0;
-        $code->percentageSales   = $request->getDataInt('percentage_sales_tax') ?? 0;
+        $code->percentageOutput   = $request->getDataInt('percentage_sales_tax') ?? 0;
         $code->percentageInput   = $request->getDataInt('percentage_input_tax') ?? 0;
         $code->taxAccount1       = $request->getDataString('tax1');
         $code->taxAccount2       = $request->getDataString('tax2');
@@ -225,7 +225,7 @@ final class ApiController extends Controller
     {
         $new->abbr              = $request->getDataString('abbr') ?? $new->abbr;
         $new->percentageInvoice = $request->getDataInt('percentage_invoice') ?? $new->percentageInvoice;
-        $new->percentageSales   = $request->getDataInt('percentage_sales_tax') ?? $new->percentageSales;
+        $new->percentageOutput   = $request->getDataInt('percentage_sales_tax') ?? $new->percentageOutput;
         $new->percentageInput   = $request->getDataInt('percentage_input_tax') ?? $new->percentageInput;
 
         return $new;
