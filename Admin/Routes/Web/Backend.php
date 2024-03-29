@@ -18,7 +18,7 @@ use phpOMS\Account\PermissionType;
 use phpOMS\Router\RouteVerb;
 
 return [
-    '^.*/finance/analysis(\?.*$|$)' => [
+    '^/finance/analysis(\?.*$|$)' => [
         [
             'dest'       => '\Modules\Finance\Controller\BackendController:viewDashboard',
             'verb'       => RouteVerb::GET,
@@ -29,7 +29,7 @@ return [
             ],
         ],
     ],
-    '^.*/finance/tax/code/list(\?.*$|$)' => [
+    '^/finance/tax/code/list(\?.*$|$)' => [
         [
             'dest'       => '\Modules\Finance\Controller\BackendController:viewTaxList',
             'verb'       => RouteVerb::GET,
@@ -40,7 +40,7 @@ return [
             ],
         ],
     ],
-    '^.*/finance/tax/code/create(\?.*$|$)' => [
+    '^/finance/tax/code/create(\?.*$|$)' => [
         [
             'dest'       => '\Modules\Finance\Controller\BackendController:viewTaxCreate',
             'verb'       => RouteVerb::GET,
