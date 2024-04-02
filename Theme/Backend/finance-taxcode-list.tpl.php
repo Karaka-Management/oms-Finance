@@ -20,8 +20,8 @@ use phpOMS\Uri\UriFactory;
  */
 $taxcode = $this->data['taxcode'];
 
-$previous = empty($taxcode) ? '{/base}/finance/tax/code/list' : '{/base}/finance/tax/code/list?{?}&id=' . \reset($taxcode)->id . '&ptype=p';
-$next     = empty($taxcode) ? '{/base}/finance/tax/code/list' : '{/base}/finance/tax/code/list?{?}&id=' . \end($taxcode)->id . '&ptype=n';
+$previous = empty($taxcode) ? '{/base}/finance/tax/code/list' : '{/base}/finance/tax/code/list?{?}&offset=' . \reset($taxcode)->id . '&ptype=p';
+$next     = empty($taxcode) ? '{/base}/finance/tax/code/list' : '{/base}/finance/tax/code/list?{?}&offset=' . \end($taxcode)->id . '&ptype=n';
 
 echo $this->data['nav']->render(); ?>
 <div class="row">

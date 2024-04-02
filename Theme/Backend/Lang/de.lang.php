@@ -103,9 +103,9 @@ return ['Finance' => [
     'Turnover'             => 'Umsatz',
     'Type'                 => 'Typ',
     'ZipCode'              => 'Postleitzahl',
-    'TaxCodes'              => 'Steuerkz.',
+    'TaxCodes'             => 'Steuerkz.',
     'TaxCode'              => 'Steuerkz.',
-    'Purchase'              => 'Einkauf',
-    'Tax1Account'              => 'Steuerkonto 1',
-    'Tax2Account'              => 'Steyerkonto 2',
+    'Purchase'             => 'Einkauf',
+    'Tax1Account'          => 'Steuerkonto 1',
+    'Tax2Account'          => 'Steyerkonto 2',
 ]];

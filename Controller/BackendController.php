@@ -15,7 +15,6 @@ declare(strict_types=1);
 namespace Modules\Finance\Controller;
 
 use Modules\Finance\Models\TaxCodeMapper;
-use phpOMS\Asset\AssetType;
 use phpOMS\Contract\RenderableInterface;
 use phpOMS\Message\RequestAbstract;
 use phpOMS\Message\ResponseAbstract;
