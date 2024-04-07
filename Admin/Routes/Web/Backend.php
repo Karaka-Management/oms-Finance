@@ -22,7 +22,7 @@ return [
         [
             'dest'       => '\Modules\Finance\Controller\BackendController:viewDashboard',
             'verb'       => RouteVerb::GET,
-            'active' => true,
+            'active'     => true,
             'permission' => [
                 'module' => BackendController::NAME,
                 'type'   => PermissionType::READ,
@@ -34,7 +34,7 @@ return [
         [
             'dest'       => '\Modules\Finance\Controller\BackendController:viewTaxList',
             'verb'       => RouteVerb::GET,
-            'active' => true,
+            'active'     => true,
             'permission' => [
                 'module' => BackendController::NAME,
                 'type'   => PermissionType::READ,
@@ -46,7 +46,7 @@ return [
         [
             'dest'       => '\Modules\Finance\Controller\BackendController:viewTaxCode',
             'verb'       => RouteVerb::GET,
-            'active' => true,
+            'active'     => true,
             'permission' => [
                 'module' => BackendController::NAME,
                 'type'   => PermissionType::READ,
@@ -58,7 +58,7 @@ return [
         [
             'dest'       => '\Modules\Finance\Controller\BackendController:viewTaxCreate',
             'verb'       => RouteVerb::GET,
-            'active' => true,
+            'active'     => true,
             'permission' => [
                 'module' => BackendController::NAME,
                 'type'   => PermissionType::CREATE,

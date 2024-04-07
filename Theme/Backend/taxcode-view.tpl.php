@@ -17,7 +17,7 @@ use phpOMS\Stdlib\Base\FloatInt;
 use phpOMS\Uri\UriFactory;
 
 $taxcode = $this->data['taxcode'] ?? new NullTaxCode();
-$isNew = $taxcode->id === 0;
+$isNew   = $taxcode->id === 0;
 
 /** @var \phpOMS\Views\View $this */
 echo $this->data['nav']->render(); ?>

@@ -105,9 +105,9 @@ return ['Finance' => [
     'TaxCodes'             => 'Steuerkz.',
     'TaxCode'              => 'Steuerkz.',
     'Purchase'             => 'Einkauf',
-    'InvoicePercentage'             => 'Rechnungsprozentsatz',
-    'OutputPercentage'             => 'Umsatzsteuerprozentsatz',
-    'InputPercentage'             => 'Vorsteuerprozentsatz',
+    'InvoicePercentage'    => 'Rechnungsprozentsatz',
+    'OutputPercentage'     => 'Umsatzsteuerprozentsatz',
+    'InputPercentage'      => 'Vorsteuerprozentsatz',
     'Tax1Account'          => 'Steuerkonto 1',
     'Tax2Account'          => 'Steyerkonto 2',
 ]];

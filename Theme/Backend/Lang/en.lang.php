@@ -104,9 +104,9 @@ return ['Finance' => [
     'TaxCodes'             => 'Tax Codes',
     'TaxCode'              => 'Tax Code',
     'Purchase'             => 'Purchase',
-    'InvoicePercentage'             => 'Invoice Percentage',
-    'OutputPercentage'             => 'Sales Percentage',
-    'InputPercentage'             => 'Input Percentage',
+    'InvoicePercentage'    => 'Invoice Percentage',
+    'OutputPercentage'     => 'Sales Percentage',
+    'InputPercentage'      => 'Input Percentage',
     'Tax1Account'          => 'Tax Account 1',
     'Tax2Account'          => 'Tax Account 2',
 ]];
