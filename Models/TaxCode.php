@@ -45,6 +45,8 @@ class TaxCode implements \JsonSerializable
     //      1. Account (gross postings are automatically split)
     //      2. Tax code
     //      3. Tax combination
+
+    // @todo create comment which is the sales an which is the input tax account
     public ?string $taxAccount1 = null;
 
     public ?string $taxAccount2 = null;

@@ -45,7 +45,7 @@ final class BackendController extends Controller
     public function viewTaxList(RequestAbstract $request, ResponseAbstract $response, array $data = []) : RenderableInterface
     {
         $view = new View($this->app->l11nManager, $request, $response);
-        $view->setTemplate('/Modules/Finance/Theme/Backend/finance-taxcode-list');
+        $view->setTemplate('/Modules/Finance/Theme/Backend/taxcode-list');
         $view->data['nav'] = $this->app->moduleManager->get('Navigation')->createNavigationMid(1008102001, $request, $response);
 
         $view->data['taxcode'] = TaxCodeMapper::getAll()
@@ -68,11 +68,31 @@ final class BackendController extends Controller
     public function viewTaxView(RequestAbstract $request, ResponseAbstract $response, array $data = []) : RenderableInterface
     {
         $view = new View($this->app->l11nManager, $request, $response);
-        $view->setTemplate('/Modules/Finance/Theme/Backend/finance-taxcode-view');
+        $view->setTemplate('/Modules/Finance/Theme/Backend/taxcode-view');
         $view->data['nav'] = $this->app->moduleManager->get('Navigation')->createNavigationMid(1008102001, $request, $response);
 
         $view->data['taxcode'] = TaxCodeMapper::getAll()
             ->executeGetArray();
+
+        return $view;
+    }
+
+    /**
+     * Method which shows the sales dashboard
+     *
+     * @param RequestAbstract  $request  Request
+     * @param ResponseAbstract $response Response
+     * @param array            $data     Generic data
+     *
+     * @return RenderableInterface Response can be rendered
+     *
+     * @since 1.0.0
+     */
+    public function viewTaxCreate(RequestAbstract $request, ResponseAbstract $response, array $data = []) : RenderableInterface
+    {
+        $view = new View($this->app->l11nManager, $request, $response);
+        $view->setTemplate('/Modules/Finance/Theme/Backend/taxcode-view');
+        $view->data['nav'] = $this->app->moduleManager->get('Navigation')->createNavigationMid(1008102001, $request, $response);
 
         return $view;
     }

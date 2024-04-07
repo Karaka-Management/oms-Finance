@@ -132,7 +132,7 @@ final class ApiController extends Controller
     }
 
     /**
-     * Api method to create tag localization
+     * Api method to create tax code localization
      *
      * @param RequestAbstract  $request  Request
      * @param ResponseAbstract $response Response
@@ -159,7 +159,7 @@ final class ApiController extends Controller
     }
 
     /**
-     * Method to create tag localization from request.
+     * Method to create tax code localization from request.
      *
      * @param RequestAbstract $request Request
      *

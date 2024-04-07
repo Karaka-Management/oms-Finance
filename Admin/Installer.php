@@ -80,9 +80,9 @@ final class Installer extends InstallerAbstract
         $request->setData('abbr', $data['abbr'] ?? '');
         $request->setData('percentage_invoice', $data['percentage_invoice'] ?? 0);
         $request->setData('percentage_sales_tax', $data['percentage_sales_tax'] ?? 0);
+        $request->setData('percentage_input_tax', $data['percentage_input_tax'] ?? 0);
         $request->setData('tax1', $data['tax1_account'] ?? null);
         $request->setData('tax2', $data['tax2_account'] ?? null);
-        $request->setData('percentage_input_tax', $data['percentage_input_tax'] ?? 0);
         $request->setData('title', \reset($data['l11n'])['title'] ?? '');
         $request->setData('short',  \reset($data['l11n'])['short'] ?? '');
         $request->setData('long',  \reset($data['l11n'])['long'] ?? '');

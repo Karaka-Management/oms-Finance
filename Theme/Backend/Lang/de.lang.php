@@ -22,7 +22,6 @@ return ['Finance' => [
     'Analysis'             => 'Analyse',
     'Analyze'              => 'Analyse',
     'Area'                 => 'Bereich',
-    'Article'              => 'Artikel',
     'Articles'             => 'Artikel',
     'Available'            => 'Erhältlich',
     'Calculate'            => 'Berechnung',
@@ -106,6 +105,9 @@ return ['Finance' => [
     'TaxCodes'             => 'Steuerkz.',
     'TaxCode'              => 'Steuerkz.',
     'Purchase'             => 'Einkauf',
+    'InvoicePercentage'             => 'Rechnungsprozentsatz',
+    'OutputPercentage'             => 'Umsatzsteuerprozentsatz',
+    'InputPercentage'             => 'Vorsteuerprozentsatz',
     'Tax1Account'          => 'Steuerkonto 1',
     'Tax2Account'          => 'Steyerkonto 2',
 ]];
