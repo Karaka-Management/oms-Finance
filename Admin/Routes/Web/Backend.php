@@ -18,18 +18,6 @@ use phpOMS\Account\PermissionType;
 use phpOMS\Router\RouteVerb;
 
 return [
-    '^/finance/analysis(\?.*$|$)' => [
-        [
-            'dest'       => '\Modules\Finance\Controller\BackendController:viewDashboard',
-            'verb'       => RouteVerb::GET,
-            'active'     => true,
-            'permission' => [
-                'module' => BackendController::NAME,
-                'type'   => PermissionType::READ,
-                'state'  => PermissionCategory::ANALYSIS,
-            ],
-        ],
-    ],
     '^/finance/tax/code/list(\?.*$|$)' => [
         [
             'dest'       => '\Modules\Finance\Controller\BackendController:viewTaxList',

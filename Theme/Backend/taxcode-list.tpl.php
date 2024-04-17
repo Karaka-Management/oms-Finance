@@ -26,7 +26,7 @@ $next     = empty($taxcode) ? '{/base}/finance/tax/code/list' : '{/base}/finance
 echo $this->data['nav']->render(); ?>
 <div class="row">
     <div class="col-xs-12">
-        <div class="portlet">
+        <section class="portlet">
             <div class="portlet-head"><?= $this->getHtml('TaxCodes'); ?><i class="g-icon download btn end-xs">download</i></div>
             <table class="default sticky">
             <thead>
@@ -61,6 +61,7 @@ echo $this->data['nav']->render(); ?>
             <?php if ($count === 0) : ?>
                 <tr><td colspan="7" class="empty"><?= $this->getHtml('Empty', '0', '0'); ?>
             <?php endif; ?>
-        </table>
+            </table>
+        </section>
     </div>
 </div>

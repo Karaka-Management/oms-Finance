@@ -65,14 +65,15 @@ final class BackendController extends Controller
      *
      * @since 1.0.0
      */
-    public function viewTaxView(RequestAbstract $request, ResponseAbstract $response, array $data = []) : RenderableInterface
+    public function viewTaxCode(RequestAbstract $request, ResponseAbstract $response, array $data = []) : RenderableInterface
     {
         $view = new View($this->app->l11nManager, $request, $response);
         $view->setTemplate('/Modules/Finance/Theme/Backend/taxcode-view');
         $view->data['nav'] = $this->app->moduleManager->get('Navigation')->createNavigationMid(1008102001, $request, $response);
 
-        $view->data['taxcode'] = TaxCodeMapper::getAll()
-            ->executeGetArray();
+        $view->data['taxcode'] = TaxCodeMapper::get()
+            ->where('id', (int) $request->getData('id'))
+            ->execute();
 
         return $view;
     }
