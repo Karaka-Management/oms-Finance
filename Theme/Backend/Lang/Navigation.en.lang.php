@@ -15,7 +15,6 @@ declare(strict_types=1);
 return ['Navigation' => [
     'Account'   => 'Account',
     'Analysis'  => 'Analysis',
-    'Articles'  => '',
     'Clients'   => 'Clients',
     'Create'    => 'Create',
     'Finance'   => 'Finance',
