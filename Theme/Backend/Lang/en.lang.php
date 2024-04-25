@@ -96,7 +96,6 @@ return ['Finance' => [
     'Tax'                  => 'Tax',
     'Terms'                => 'Terms',
     'To'                   => 'To',
-    'TopArticles'          => 'Top Articles',
     'Trend'                => 'Trend',
     'Turnover'             => 'Turnover',
     'Type'                 => 'Type',
