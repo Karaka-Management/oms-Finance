@@ -24,4 +24,5 @@ return ['Navigation' => [
     'Profile'   => 'Profile',
     'Sales'     => 'Sales',
     'Suppliers' => 'Suppliers',
+    'TaxCodes' => 'Tax Codes',
 ]];

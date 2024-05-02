@@ -24,7 +24,11 @@ echo $this->data['nav']->render(); ?>
 <div class="row">
     <div class="col-xs-12 col-md-6">
         <section class="portlet">
-            <form method="<?= $isNew ? 'PUT' : 'POST'; ?>" action="<?= UriFactory::build('{/api}finance/tax/code?csrf={$CSRF}'); ?>">
+            <form
+                id="iTaxCodeForm"
+                method="<?= $isNew ? 'PUT' : 'POST'; ?>"
+                action="<?= UriFactory::build('{/api}finance/tax/code?csrf={$CSRF}'); ?>"
+                <?= $isNew ? 'data-redirect="' . UriFactory::build('{/base}/finance/tax/code/view') . '?id={/0/response/id}"' : ''; ?>>
                 <div class="portlet-head"><?= $this->getHtml('TaxCode'); ?></div>
                 <div class="portlet-body">
                     <div class="form-group">
