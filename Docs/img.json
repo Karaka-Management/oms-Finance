@@ -1,0 +1,7 @@
+[
+    [
+        "/finance/tax/code/view?id=1",
+        "//*[@id=\"content\"]/div[2]/div/section",
+        "/Finance/Docs/Help/img/tax_code.png"
+    ]
+]

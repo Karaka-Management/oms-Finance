@@ -110,6 +110,27 @@
             }
         }
     },
+    "DE_V7": {
+        "abbr": "DE_V7",
+        "percentage_invoice": 70000,
+        "percentage_sales_tax": 70000,
+        "percentage_input_tax": 70000,
+        "tax1_account": "1571",
+        "tax2_account": null,
+        "tax_report": {
+            "base": null,
+            "amount": 43
+        },
+        "markers": [
+        ],
+        "l11n": {
+            "de": {
+                "title": "DE_V7",
+                "short": "",
+                "long": ""
+            }
+        }
+    },
     "DE_M0": {
         "abbr": "DE_M0",
         "percentage_invoice": 0,
@@ -138,7 +159,7 @@
         "tax2_account": "1771",
         "tax_report": {
             "base": null,
-            "amount": 43
+            "amount": 26
         },
         "markers": [
         ],
@@ -159,7 +180,7 @@
         "tax2_account": "1776",
         "tax_report": {
             "base": null,
-            "amount": 43
+            "amount": 27
         },
         "markers": [
         ],

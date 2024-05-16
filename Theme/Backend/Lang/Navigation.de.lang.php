@@ -24,5 +24,5 @@ return ['Navigation' => [
     'Profile'   => 'Profil',
     'Sales'     => 'Umsatz',
     'Suppliers' => 'Lieferanten',
-    'TaxCodes' => 'Steuerkennzeichen',
+    'TaxCodes'  => 'Steuerkennzeichen',
 ]];
