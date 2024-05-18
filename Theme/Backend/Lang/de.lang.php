@@ -21,5 +21,5 @@ return ['Finance' => [
     'OutputPercentage'     => 'Umsatzsteuerprozentsatz',
     'InputPercentage'      => 'Vorsteuerprozentsatz',
     'Tax1Account'          => 'Steuerkonto 1',
-    'Tax2Account'          => 'Steyerkonto 2',
+    'Tax2Account'          => 'Steuerkonto 2',
 ]];
