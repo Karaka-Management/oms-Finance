@@ -13,6 +13,8 @@
 declare(strict_types=1);
 
 return ['Finance' => [
+    'Invoice'                 => 'Rechnung',
+    'Sales'                 => 'Umsatz',
     'Name'                 => 'Name',
     'TaxCodes'             => 'Steuerkz.',
     'TaxCode'              => 'Steuerkz.',

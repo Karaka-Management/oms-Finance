@@ -13,6 +13,8 @@
 declare(strict_types=1);
 
 return ['Finance' => [
+    'Invoice'                 => 'Invoice',
+    'Sales'                 => 'Sales',
     'Name'                 => 'Name',
     'TaxCodes'             => 'Tax Codes',
     'TaxCode'              => 'Tax Code',
