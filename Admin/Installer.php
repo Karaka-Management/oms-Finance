@@ -83,7 +83,7 @@ final class Installer extends InstallerAbstract
         $request->setData('percentage_input_tax', $data['percentage_input_tax'] ?? 0);
         $request->setData('tax1', $data['tax1_account'] ?? null);
         $request->setData('tax2', $data['tax2_account'] ?? null);
-        $request->setData('title', \reset($data['l11n'])['title'] ?? '');
+        $request->setData('content', \reset($data['l11n'])['title'] ?? '');
         $request->setData('short',  \reset($data['l11n'])['short'] ?? '');
         $request->setData('long',  \reset($data['l11n'])['long'] ?? '');
         $request->setData('language', \array_keys($data['l11n'])[0]);

@@ -46,7 +46,7 @@ final class ApiController extends Controller
     {
         $val = [];
         if (($val['abbr'] = !$request->hasData('abbr'))
-            || ($val['title'] = !$request->hasData('title'))
+            || ($val['content'] = !$request->hasData('content'))
         ) {
             return $val;
         }
@@ -100,8 +100,8 @@ final class ApiController extends Controller
         $code->taxAccount1       = $request->getDataString('tax1');
         $code->taxAccount2       = $request->getDataString('tax2');
 
-        if ($request->hasData('title')) {
-            $code->l11n->title    = $request->getDataString('title') ?? '';
+        if ($request->hasData('content')) {
+            $code->l11n->title    = $request->getDataString('content') ?? '';
             $code->l11n->short    = $request->getDataString('short') ?? '';
             $code->l11n->long     = $request->getDataString('long') ?? '';
             $code->l11n->language = ISO639x1Enum::tryFromValue($request->getDataString('language')) ?? 'en';
@@ -122,7 +122,7 @@ final class ApiController extends Controller
     private function validateTaxCodeL11nCreate(RequestAbstract $request) : array
     {
         $val = [];
-        if (($val['title'] = !$request->hasData('title'))
+        if (($val['content'] = !$request->hasData('content'))
             || ($val['code'] = !$request->hasData('code'))
         ) {
             return $val;
@@ -170,7 +170,7 @@ final class ApiController extends Controller
     private function createTaxCodeL11nFromRequest(RequestAbstract $request) : TaxCodeL11n
     {
         $l11n           = new TaxCodeL11n();
-        $l11n->title    = $request->getDataString('title') ?? '';
+        $l11n->title    = $request->getDataString('content') ?? '';
         $l11n->short    = $request->getDataString('short') ?? '';
         $l11n->long     = $request->getDataString('long') ?? '';
         $l11n->code     = $request->getDataInt('code') ?? 0;
