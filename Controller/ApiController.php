@@ -202,7 +202,7 @@ final class ApiController extends Controller
         }
 
         /** @var \Modules\Finance\Models\TaxCode $old */
-        $old = TaxCodeMapper::get()->where('id', (int) $request->getData('id'))->execute();
+        $old = TaxCodeMapper::get()->where('id', $request->getDataInt('id') ?? 0)->execute();
         $new = $this->updateTaxCodeFromRequest($request, clone $old);
 
         $this->updateModel($request->header->account, $old, $new, TaxCodeMapper::class, 'tax_code', $request->getOrigin());
@@ -275,7 +275,7 @@ final class ApiController extends Controller
         }
 
         /** @var \Modules\Finance\Models\TaxCode $taxCode */
-        $taxCode = TaxCodeMapper::get()->where('id', (int) $request->getData('id'))->execute();
+        $taxCode = TaxCodeMapper::get()->where('id', $request->getDataInt('id') ?? 0)->execute();
         $this->deleteModel($request->header->account, $taxCode, TaxCodeMapper::class, 'tax_code', $request->getOrigin());
         $this->createStandardDeleteResponse($request, $response, $taxCode);
     }
@@ -322,7 +322,7 @@ final class ApiController extends Controller
         }
 
         /** @var \Modules\Finance\Models\TaxCodeL11n $old */
-        $old = TaxCodeL11nMapper::get()->where('id', (int) $request->getData('id'))->execute();
+        $old = TaxCodeL11nMapper::get()->where('id', $request->getDataInt('id') ?? 0)->execute();
         $new = $this->updateTaxCodeL11nFromRequest($request, clone $old);
 
         $this->updateModel($request->header->account, $old, $new, TaxCodeL11nMapper::class, 'tax_code_l11n', $request->getOrigin());
@@ -396,7 +396,7 @@ final class ApiController extends Controller
         }
 
         /** @var \Modules\Finance\Models\TaxCodeL11n $taxCodeL11n */
-        $taxCodeL11n = TaxCodeL11nMapper::get()->where('id', (int) $request->getData('id'))->execute();
+        $taxCodeL11n = TaxCodeL11nMapper::get()->where('id', $request->getDataInt('id') ?? 0)->execute();
         $this->deleteModel($request->header->account, $taxCodeL11n, TaxCodeL11nMapper::class, 'tax_code_l11n', $request->getOrigin());
         $this->createStandardDeleteResponse($request, $response, $taxCodeL11n);
     }
